@@ -2,7 +2,6 @@
 *:before,
 *:after {
     box-sizing: border-box;
-    font-size: 62.5%;
 }
 
 * {
@@ -19,8 +18,21 @@ video {
     max-width: 100%;
 }
 
+body,
+html {
+    font-size: 62.5%;
+}
+
 body {
     min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,li,ol {
+    list-style: none;
 }
 
 /* 

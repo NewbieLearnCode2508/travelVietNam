@@ -1,14 +1,14 @@
 [
     {
         "diaDiem": "Ninh Chữ – Vĩnh Hy",
-        "giaVe": 2590000,
-        "gioThieu": "u khách sẽ được trải nghiệm vui chơi vùng biển hoang sơ nước xanh biếc và khám phá các làng nghề địa phương mang màu sắc văn hóa Chăm độc đáo. ",
-        "giaCu": 3390000,
+        "giaVe": "2590000",
+        "gioThieu": "Du khách sẽ được trải nghiệm vui chơi vùng biển hoang sơ nước xanh biếc và khám phá các làng nghề địa phương mang màu sắc văn hóa Chăm độc đáo. ",
+        "giaCu": "3390000",
         "ngayXuatPhat": "2023-03-24",
-        "soLuong": 50,
-        "daDat": 42,
+        "soLuong": "50",
+        "daDat": "42",
         "phuongTien": "bus",
-        "soNgay": 3,
+        "soNgay": "3",
         "tieuChuan": [
             "Tham quan Cổ Thạch",
             "Cắm Trại",
@@ -31,7 +31,7 @@
         ],
         "chuongTrinh": [
             {
-                "viTri": "Sài Gòn - Cổ Thạch - Chùa Hang - Ninh ",
+                "viTri": "Sài Gòn - Cổ Thạch - Chùa Hang - Ninh",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2023/01/vinh-hy-3n2d-lua-trai-6.jpg",
                 "gthieuNgay": "Chùa Hang (Cổ Thạch tự). Ngôi chùa nổi tiếng với tuổi đời hơn 100 năm nay, đây là ngôi chùa lớn nhất khu vực. Chùa tọa lạc trên đỉnh một ngọn đồi và được xây xen kẽ trong các hang đá tự nhiên, đứng trên đây quý khách có thể quan sát được toàn bộ khu vực Cổ Thạch."
             },
@@ -41,22 +41,23 @@
                 "gthieuNgay": "Du khách sẽ tham quan đầm Đăng, bãi Cóc, bãi Thùng, bãi Vách Đá. Quý khách lên tàu tới bãi Bà Điên tắm biển và lặn ngắm san hô (Chi phí thuê bình Oxy lặn ngắm san hô tự túc). Sau đó, quý khách tự do thưởng thức hải sản tại bè."
             },
             {
-                "viTri": "Ninh Chữ - TP. Hồ Chí ",
+                "viTri": "Ninh Chữ - TP. Hồ Chí",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2023/01/vinh-hy-3n2d-lua-trai-8.jpg",
                 "gthieuNgay": "Tham quan Làng Dệt Mỹ Nghiệp - Làng nghề dệt thổ cẩm của người Chăm tại Ninh Thuận.  Làng gốm Bàu Trúc tìm hiểu về một trong những làng nghề lâu đời nhất tại Việt Nam."
             }
-        ]
+        ],
+        "id": "1"
     },
     {
         "diaDiem": "Đà Nẵng – Hội An – Bà Nà – Núi Thần Tài",
-        "giaVe": 4190000,
-        "gioThieu": "u khách sẽ được tham quan những địa điểm vừa hoang sơ vừa mộng mơ nổi tiếng của thành phố đáng sống nhất Việt Nam.",
-        "giaCu": 6620000,
+        "giaVe": "4190000",
+        "gioThieu": "Du khách sẽ được tham quan những địa điểm vừa hoang sơ vừa mộng mơ nổi tiếng của thành phố đáng sống nhất Việt Nam.",
+        "giaCu": "6620000",
         "ngayXuatPhat": "2023-01-28",
-        "soLuong": 80,
-        "daDat": 68,
+        "soLuong": "80",
+        "daDat": "68",
         "phuongTien": "bus",
-        "soNgay": 3,
+        "soNgay": "3",
         "tieuChuan": [
             "Dạo chơi tại bán đảo Sơn Trà.",
             "Viếng chùa Linh Ứng Bãi Bụt vô cùng linh thiêng.",
@@ -75,7 +76,7 @@
         ],
         "chuongTrinh": [
             {
-                "viTri": "Đà Nẵng – Ngũ Hành Sơn – Hội ",
+                "viTri": "Đà Nẵng – Ngũ Hành Sơn",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2022/12/tour-da-nang-hoi-an-ba-na-nui-than-tai-6.jpg",
                 "gthieuNgay": "Đến tham quan tại danh thắng Non Nước – Ngũ Hành Sơn. Nơi đây được biết đến khi sở hữu 5 ngọn ngọn núi Ngũ hành và các hang động nổi tiếng không thể bỏ lỡ khi du lịch Đà Nẵng. Song với đó, du khách có thể tham quan làng đá mỹ nghệ non nước phía dưới chân núi."
             },
@@ -89,18 +90,19 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2022/12/tour-da-nang-hoi-an-ba-na-nui-than-tai-8.jpg",
                 "gthieuNgay": "Trải nghiệm tắm bùn, tắm trà, tắm sữa hoặc tắm tiên kết hợp với trà đạo. Đoàn di chuyển đến sân bay và trở về thành phố Hồ Chí Minh/Hà Nội, kết thúc hành trình tour Đà Nẵng – Hội An – Bà Nà – Núi Thần Tài."
             }
-        ]
+        ],
+        "id": "2"
     },
     {
         "diaDiem": "Đà Lạt",
-        "giaVe": 1990000,
+        "giaVe": "1990000",
         "gioThieu": "Đưa quý khách ghé thăm những địa điểm nổi tiếng của \"Thành phố ngàn hoa\"",
-        "giaCu": 4.046,
+        "giaCu": "4000000",
         "ngayXuatPhat": "2023-04-21",
-        "soLuong": 40,
-        "daDat": 25,
+        "soLuong": "40",
+        "daDat": "25",
         "phuongTien": "car",
-        "soNgay": 3,
+        "soNgay": "3",
         "tieuChuan": [
             "Tham quan địa điểm mới lạ được nhiều người chú ý: Café Panorama.",
             "Tận hưởng không khí trong lành của Đà Lạt tại Đồi chè Cầu Đất, Thác Pongour.",
@@ -118,7 +120,7 @@
         ],
         "chuongTrinh": [
             {
-                "viTri": "Thiên Đường Săn Mây – Đồi Chè Cầu Đất – Chúa Ve Chai – Thiền Viện Trúc ",
+                "viTri": "Thiên Đường Săn Mây – Đồi Chè Cầu Đất – Chúa Ve Chai – Thiền Viện Trúc",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2022/11/tour-da-lat-3-ngay-3-dem-10.jpg",
                 "gthieuNgay": "Du khách được ngắm nhìn và chụp ảnh thả ga với những áng mây trôi bồng bềnh như cõi thần tiên. Du khách sẽ ngắm nhìn vẻ đẹp thuần khiết, trong lành cùng với sắc xanh rợp cả vùng trời Đà Lạt. Song với đó, du khách còn có thể khám phá đoàn tàu đỏ Phin Deli rất mới lạ và độc đáo."
             },
@@ -132,18 +134,19 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2022/11/tour-da-lat-3-ngay-3-dem-19.jpg",
                 "gthieuNgay": "Chợ nông sản là khu chợ của người đồng bào K’Ho, tất cả sản phẩm ở đây đều được trồng sạch từ chính người dân nên du khách có thể mua được các sản phẩm với giá gốc rẻ đến bất ngờ. Thác Pongour sẽ mang du khách đến với sự bình yên, lắng nghe tiếng chim ca líu lo cùng với tiết trời mát mẻ sẽ khiến cho mọi muộn phiền bỗng chốc biến mất."
             }
-        ]
+        ],
+        "id": "3"
     },
     {
         "diaDiem": "Cha Diệp Mẹ Nam Hải",
-        "giaVe": 899000,
+        "giaVe": "899000",
         "gioThieu": "Quý khách sẽ được tham gia chương trình hành hương, chiêm nghiệm nhiều điều lý thú những ngày đầu năm.",
-        "giaCu": 1499000,
+        "giaCu": "1499000",
         "ngayXuatPhat": "2023-03-18",
-        "soLuong": 30,
-        "daDat": 17,
+        "soLuong": "30",
+        "daDat": "17",
         "phuongTien": "car",
-        "soNgay": 1,
+        "soNgay": "1",
         "tieuChuan": [
             "Viếng nhà thờ Cha Diệp linh thiêng nổi tiếng, Trung tâm Truyền giáo Phanxicô của Giáo phận.",
             "Hành hương Mẹ Nam Hải với tượng cao 11 mét, sừng sững hướng mặt ra biển.",
@@ -162,22 +165,23 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2021/01/tour-cha-diep-me-nam-hai-5.jpg",
                 "gthieuNgay": "Mẹ Nam Hải là tượng cao 11 mét, sừng sững trang nghiêm hướng mặt ra biển, nơi chúng ta tìm thấy một không gian yên tĩnh để đắm chìm vào những suy nghĩ, chiêm nghiệm và để thanh lọc tâm hồn, tẩy gội bụi trần."
             }
-        ]
+        ],
+        "id": "4"
     },
     {
         "diaDiem": "Đồng Tháp",
-        "giaVe": 1390000,
+        "giaVe": "1390000",
         "gioThieu": "Đưa quý khách về với miền Tây sông nước - nơi có các món đặc sản thơm ngon, những khung cảnh thiên nhiên xanh mát cùng vô vàn trò chơi dưới nước vui nhộn.",
-        "giaCu": 2.224,
+        "giaCu": "2224000",
         "ngayXuatPhat": "2023-03-26",
-        "soLuong": 20,
-        "daDat": 12,
+        "soLuong": "20",
+        "daDat": "12",
         "phuongTien": "car",
-        "soNgay": 1,
+        "soNgay": "1",
         "tieuChuan": [
             "Chiêm ngưỡng Làng Hoa Sa Đéc – Vựa hoa kiểng lớn nhất miền Tây Nam Bộ tất bật đón Tết.",
             "Tham quan Chùa cổ Kiến An Cung có niên đại gần trăm năm.",
-            "Ghé Vườn quýt hồng Lai Vung: đi cầu khỉ, chèo xuồng ba lá. ",
+            "Ghé Vườn quýt hồng Lai Vung: đi cầu khỉ, chèo xuồng ba lá.",
             "Thưởng thức các món đặc sản nổi tiếng của vùng đất miền Tây."
         ],
         "imgsTour": [
@@ -187,22 +191,23 @@
         ],
         "chuongTrinh": [
             {
-                "viTri": "TP. Hồ Chí Minh – Chùa Lá Sen – Làng Hoa Kiểng – Vườn Quýt Hồng Lai ",
+                "viTri": "TP. Hồ Chí Minh – Chùa Lá Sen – Làng Hoa Kiểng – Vườn Quýt Hồng Lai",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2020/12/tour-dong-thap-1-ngay-4.jpg",
                 "gthieuNgay": "Chùa Phước Kiến còn có tên gọi khác là chùa Lá Sen. Mặc dù ngôi chùa không có lối kiến trúc nổi bật nhưng nơi đây đã ghi dấu ghi sở hữu một loài sen kỳ lạ không chỉ riêng Việt Nam mà còn với các nước trong khu vực Đông Nam Á. Du khách sẽ được chụp hình với hàng trăm “kỳ hoa dị thảo” và chiêm ngưỡng những giá trị độc đáo tại làng nghề trồng hoa kiểng có tuổi đời hơn 100 năm ở Làng hoa kiểng Sa Đéc."
             }
-        ]
+        ],
+        "id": "5"
     },
     {
         "diaDiem": "Lục tỉnh miền Tây",
-        "giaVe": 3290000,
+        "giaVe": "3290000",
         "gioThieu": "Du khách sẽ được thư giãn khi dạo bước giữa khung cảnh miền Tây bình yên. Du khách còn có cơ hội chiêm ngưỡng các công trình nổi tiếng và tham gia các hoạt động lý thú của miền sông nước.",
-        "giaCu": 4935000,
+        "giaCu": "4935000",
         "ngayXuatPhat": "2023-05-11",
-        "soLuong": 60,
-        "daDat": 55,
+        "soLuong": "60",
+        "daDat": "55",
         "phuongTien": "bus",
-        "soNgay": 3,
+        "soNgay": "3",
         "tieuChuan": [
             "Viếng thăm chùa Vĩnh Tràng.",
             "Dạo quanh miền sông nước tại cù lao Thới Sơn.",
@@ -235,22 +240,23 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2022/12/tour-du-lich-luc-tinh-mien-tay-3n2d-11.jpg",
                 "gthieuNgay": "Ở Cánh Đồng Quạt Gió Bạc Liêu du khách có thể thỏa sức check in giữa khung cảnh rộng lớn dưới bầu trời trong xanh ngập tràn nắng và gió. Du khách sẽ “ngược dòng thời gian” để trở lại những năm 1919 và chiêm ngưỡng nét kiến trúc hài hòa nhưng không kém phần sang trọng được xây dựng bởi một kiến trúc sư người Pháp tại Nhà Công Tử Bạc Liêu."
             }
-        ]
+        ],
+        "id": "6"
     },
     {
         "diaDiem": "Ba Vì - Hà Nội",
-        "giaVe": 899000,
-        "gioThieu": "Đặt mua tour du lịch Ba Vì 1 ngày từ Hà Nội thăm thú vườn quốc gia Ba Vì, Làng văn hóa các dân tộc Việt Nam đặc sắc. Đặc biệt, đến đây vào khoảng tháng 10, tháng 11 bạn còn được ngắm hoa dã quỳ khoe sắc vàng rực rỡ. ",
-        "giaCu": 1599000,
+        "giaVe": "899000",
+        "gioThieu": "Đặt mua tour du lịch Ba Vì 1 ngày từ Hà Nội thăm thú vườn quốc gia Ba Vì, Làng văn hóa các dân tộc Việt Nam đặc sắc. Đặc biệt, đến đây vào khoảng tháng 10, tháng 11 bạn còn được ngắm hoa dã quỳ khoe sắc vàng rực rỡ.",
+        "giaCu": "1599000",
         "ngayXuatPhat": "2023-03-11",
-        "soLuong": 45,
-        "daDat": 0,
+        "soLuong": "45",
+        "daDat": "38",
         "phuongTien": "bus",
-        "soNgay": 1,
+        "soNgay": "1",
         "tieuChuan": [
-            "Ghé Vườn quốc gia Ba Vì có cảnh quan đẹp ở núi Tản Viên. ",
+            "Ghé Vườn quốc gia Ba Vì có cảnh quan đẹp ở núi Tản Viên.",
             "Hành lễ, thắp hương ở đền Thượng, đền Mẫu.",
-            "Thăm thú mùa hoa dã quỳ nở bạt ngàn. ",
+            "Thăm thú mùa hoa dã quỳ nở bạt ngàn.",
             "Tham quan Làng văn hóa các dân tộc Việt Nam, nơi bảo tồn và giới thiệu di sản văn hóa của 54 dân tộc."
         ],
         "imgsTour": [
@@ -265,28 +271,29 @@
         ],
         "chuongTrinh": [
             {
-                "viTri": "VƯỜN QUỐC GIA BA VÌ - ĐỀN THƯỢNG - ĐỒNG MÔ - LÀNG VĂN HÓA CÁC DÂN TỘC VIỆT NAM - HÀ NỘI",
+                "viTri": "Vườn Quốc Gia Ba Vì - Đền Thượng - Đồng Mô - Làng Văn Hóa Các Dân Tộc Việt Nam - Hà Nội",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2020/11/tour-ba-vi-1-ngay-5.jpg",
-                "gthieuNgay": "06h00: Xe và Hướng dẫn viên Vietnam Booking đón Quý khách tại điểm hẹn, bắt đầu chương trình tour du lịch Ba Vì 1 ngày.  Trên đường đi, quý khách dừng chân, nghỉ ngơi và tự túc ăn sáng.  08h00: Đoàn đến vườn quốc gia Ba Vì, một địa điểm du lịch Hà Nội nổi tiếng, quý khách sẽ hòa mình vào sắc vàng tươi của hoa dã quỳ, chụp những bức ảnh kỉ niệm.  Leo núi khoảng 300m lên đến đền Thượng - ngôi đền thờ thánh Tản Viên (một trong \"Tứ Bất tử\" theo quan niệm tâm linh người Việt), thắp hương và làm lễ. Thăm đền Mẫu trên đỉnh núi cách đền Thượng khoảng 50m, từ đây quý khách có thể dõi tầm mắt nhìn xuống phía chân núi với thung lũng nhỏ xinh. Quý khách đến nhà hàng và thưởng thức bữa trưa tại nhà hàng. Xe đưa quý khách tới Đồng Mô.  Đoàn đến khu du lịch, hướng dẫn viên đưa đoàn đến khu Văn hóa dân tộc (gồm nền văn hóa của 54 dân tộc với diện tích 116 ha).  Tham quan khu các làng dân tộc hiện tại gồm những làng tiêu biểu cho nền văn hóa các dân tộc việt Nam: làng Ba Na, làng M nong, làng Sedang, làng Gia Rai, làng Ê Đê... Khám phá Khu Trung tâm văn hóa và vui chơi giải trí; Khu dịch vụ du lịch tổng hợp; khu Di sản văn hóa thế giới; Khu công viên bến thuyền; Khu cây xanh mặt nước hồ Đồng Mô. 16h00: Quý khách lên xe, đoàn đến điểm mua sắm sữa tươi Ba Vì. Quý khách tự do nghỉ ngơi và mua sắm sữa tươi.  17h30: Quý khách lên xe trở về Hà Nội theo đường cao tốc Láng - Hoà Lạc.  Tối: Xe & HDV trả khách tại điểm đón ban đầu. Kết thúc chương trình tour Ba Vì 1 ngày, HDV chào tạm biệt và hẹn gặp lại quý khách vào những tour du lịch giá rẻ tiếp theo!"
+                "gthieuNgay": "06h00: Xe và Hướng dẫn viên Vietnam Booking đón Quý khách tại điểm hẹn, bắt đầu chương trình tour du lịch Ba Vì 1 ngày.  Trên đường đi, quý khách dừng chân, nghỉ ngơi và tự túc ăn sáng.  08h00: Đoàn đến vườn quốc gia Ba Vì, một địa điểm du lịch Hà Nội nổi tiếng, quý khách sẽ hòa mình vào sắc vàng tươi của hoa dã quỳ, chụp những bức ảnh kỉ niệm.  Leo núi khoảng 300m lên đến đền Thượng - ngôi đền thờ thánh Tản Viên (một trong \\\"Tứ Bất tử\\\" theo quan niệm tâm linh người Việt), thắp hương và làm lễ. Thăm đền Mẫu trên đỉnh núi cách đền Thượng khoảng 50m, từ đây quý khách có thể dõi tầm mắt nhìn xuống phía chân núi với thung lũng nhỏ xinh. Quý khách đến nhà hàng và thưởng thức bữa trưa tại nhà hàng. Xe đưa quý khách tới Đồng Mô.  Đoàn đến khu du lịch, hướng dẫn viên đưa đoàn đến khu Văn hóa dân tộc (gồm nền văn hóa của 54 dân tộc với diện tích 116 ha).  Tham quan khu các làng dân tộc hiện tại gồm những làng tiêu biểu cho nền văn hóa các dân tộc việt Nam: làng Ba Na, làng M nong, làng Sedang, làng Gia Rai, làng Ê Đê... Khám phá Khu Trung tâm văn hóa và vui chơi giải trí; Khu dịch vụ du lịch tổng hợp; khu Di sản văn hóa thế giới; Khu công viên bến thuyền; Khu cây xanh mặt nước hồ Đồng Mô. 16h00: Quý khách lên xe, đoàn đến điểm mua sắm sữa tươi Ba Vì. Quý khách tự do nghỉ ngơi và mua sắm sữa tươi.  17h30: Quý khách lên xe trở về Hà Nội theo đường cao tốc Láng - Hoà Lạc.  Tối: Xe & HDV trả khách tại điểm đón ban đầu. Kết thúc chương trình tour Ba Vì 1 ngày, HDV chào tạm biệt và hẹn gặp lại quý khách vào những tour du lịch giá rẻ tiếp theo!"
             }
-        ]
+        ],
+        "id": "7"
     },
     {
         "diaDiem": "Trekking Pù Luông",
-        "giaVe": 3399000,
+        "giaVe": "3399000",
         "gioThieu": "Đặt tour trekking Pù Luông 3 ngày 2 đêm quý khách sẽ được đắm chìm trong cảnh quan tươi đẹp, chiêm ngưỡng những thửa ruộng bậc thang ngút ngàn.",
-        "giaCu": 4532000,
+        "giaCu": "4532000",
         "ngayXuatPhat": "2023-03-24",
-        "soLuong": 45,
-        "daDat": 20,
+        "soLuong": "45",
+        "daDat": "20",
         "phuongTien": "bus",
-        "soNgay": 3,
+        "soNgay": "3",
         "tieuChuan": [
             "Nghỉ dưỡng tại Puluong Retreat 3 sao với nhiều dịch vụ đặc sắc.",
             "Đi bộ khám phá cuộc sống nơi miền sơn cước Pù Luông.",
             "Đạp xe tìm hiểu văn hóa địa phương tại bản Ươi, bản Lặn",
-            "Hòa mình vào dòng nước trong lành, tinh khôi của thác Hiêu, bản Hiêu. ",
-            "Tới làng Đồng Điểng tham quan thung lũng với những thửa ruộng bậc thang ngút ngàn. "
+            "Hòa mình vào dòng nước trong lành, tinh khôi của thác Hiêu, bản Hiêu.",
+            "Tới làng Đồng Điểng tham quan thung lũng với những thửa ruộng bậc thang ngút ngàn."
         ],
         "imgsTour": [
             "https://www.vietnambooking.com/wp-content/uploads/2021/01/tour-trekking-pu-luong-3-ngay-2-dem-1.jpg",
@@ -316,18 +323,19 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2021/01/tour-trekking-pu-luong-3-ngay-2-dem-9.jpg",
                 "gthieuNgay": "Sáng: Đoàn dùng điểm tâm sáng tại khách sạn.   Sau đó xe sẽ đưa bạn từ Retreat tới làng Đồng Điểng, tham quan thung lũng đẹp nhất ở Pù Luông. Trên đường đi tour du lịch miền Bắc này bạn sẽ có cơ hội chiêm ngưỡng những thửa ruộng bậc thang ngút ngàn, nếu may mắn đi vào mùa lúa bạn sẽ được chiêm ngưỡng cánh đồng lúa óng ánh và những ngọn núi hùng vĩ.  Đi bộ trên một con đường mòn uốn lượn, thưởng thức phong cảnh thiên nhiên vừa hùng vĩ vừa hoang sơ với những bản làng thơ mộng. Trong lúc đi bộ qua một số ngôi nhà trên đường, bạn có thể đến thăm bất kỳ gia đình địa phương nào, để tìm hiểu thêm về lối sống và văn hóa của người dân nơi đây. Trưa: Đoàn trở lại khu nghỉ dưỡng dùng bữa trưa.  Chiều: Quý khách trả phòng, xe đưa đoàn về lại Hà Nội. HDV thay mặt Vietnam Booking chào tạm biệt quý khách, kết thúc chương trình tour trekking Pù Luông 3 ngày 2 đêm đặc sắc."
             }
-        ]
+        ],
+        "id": "8"
     },
     {
         "diaDiem": "Điện Biên",
-        "giaVe": 2699000,
+        "giaVe": "2699000",
         "gioThieu": "Đặt ngay tour Điện Biên 3 ngày 2 đêm của Vietnam Booking ngay để khám phá vẻ đẹp núi rừng Tây Bắc và thưởng thức lễ hội Hoa Ban hot nhất năm!",
-        "giaCu": 4498000,
+        "giaCu": "4498000",
         "ngayXuatPhat": "2023-03-24",
-        "soLuong": 45,
-        "daDat": 10,
+        "soLuong": "45",
+        "daDat": "10",
         "phuongTien": "bus",
-        "soNgay": 3,
+        "soNgay": "3",
         "tieuChuan": [
             "Tận hưởng không khí mát mẻ và vẻ đẹp bất tận của vùng núi Tây Bắc.",
             "Thưởng thức những món ăn đặc sản của núi rừng.",
@@ -352,25 +360,26 @@
             {
                 "viTri": "SƠN LA - ĐIỆN BIÊN - ĐÊM HỘI HOA BAN",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2021/04/Ha-Noi-Son-La-Dien-Bien-Moc-Chau-3N2D-3.jpg",
-                "gthieuNgay": "Sáng: Quý khách ăn sáng và trả phòng khách sạn. Xe và HDV sẽ đưa quý khách tiếp tục hành trình đi du lịch Tây Bắc.  Trên đường đến với thành phố Điện Biên quý khách sẽ được nghỉ ngơi và chụp ảnh tại:   Đèo Pha Đin: Một trong \"Tứ đại đỉnh đèo\" của miền Bắc Việt Nam và chiêm ngưỡng những đồi hoa ban trắng đang vào mùa khoe sắc dọc bên đường đi. Tiếp tục hành trình đến với di tích lịch sử Mường Phăng - Sở chỉ huy chiến dịch Điện Biên Phủ và tham quan các địa điểm như:  Hầm Đại tướng Võ Nguyên Giáp, bếp Hoàng Cầm... Tìm hiểu về đại tướng Võ Nguyên Giáp, trung tướng Hoàng Văn Thái, anh hùng Lò Văn Hoàng... Trưa: Ăn trưa tại Mường Phăng sau đó về lại trung tâm thành phố Điện Biên để nhận phòng khách sạn và nghỉ ngơi.  Chiều: HDV sẽ đưa quý khách tham quan một số điểm đặc trưng khi du lịch Điện Biên như:  Bảo Tàng lịch sử Điện Biên Phủ – Có 5 khu trưng bày với các hiện vật và bức tranh theo từng chủ đề: Vị trí chiến lược, Tập đoàn cứ điểm của địch, Ảnh hưởng của chiến thắng Điện Biên Phủ và Điện Biên Phủ ngày nay... Viếng Nghĩa trang liệt sỹ A1, đồi A1 – Với 644 ngôi mộ là những chiến sĩ quân dân ta đã hy sinh anh dũng trong chiến dịch Điện Biên Phủ. Hầm Đờ Cát, Cầu Mường Thanh, sông Nậm Rốn, Tượng đài chiến thắng Điện Biên Phủ – Những địa danh vẫn còn mang đầy dư âm oai hùng của cuộc chiến mang ý nghĩa lịch sử của toàn dân tộc. Tối: Quý khách dùng cơm tối tại nhà hàng và tự do khám phá Thành phố Điện Biên."
+                "gthieuNgay": "Sáng: Quý khách ăn sáng và trả phòng khách sạn. Xe và HDV sẽ đưa quý khách tiếp tục hành trình đi du lịch Tây Bắc.  Trên đường đến với thành phố Điện Biên quý khách sẽ được nghỉ ngơi và chụp ảnh tại:   Đèo Pha Đin: Một trong \\\"Tứ đại đỉnh đèo\\\" của miền Bắc Việt Nam và chiêm ngưỡng những đồi hoa ban trắng đang vào mùa khoe sắc dọc bên đường đi. Tiếp tục hành trình đến với di tích lịch sử Mường Phăng - Sở chỉ huy chiến dịch Điện Biên Phủ và tham quan các địa điểm như:  Hầm Đại tướng Võ Nguyên Giáp, bếp Hoàng Cầm... Tìm hiểu về đại tướng Võ Nguyên Giáp, trung tướng Hoàng Văn Thái, anh hùng Lò Văn Hoàng... Trưa: Ăn trưa tại Mường Phăng sau đó về lại trung tâm thành phố Điện Biên để nhận phòng khách sạn và nghỉ ngơi.  Chiều: HDV sẽ đưa quý khách tham quan một số điểm đặc trưng khi du lịch Điện Biên như:  Bảo Tàng lịch sử Điện Biên Phủ – Có 5 khu trưng bày với các hiện vật và bức tranh theo từng chủ đề: Vị trí chiến lược, Tập đoàn cứ điểm của địch, Ảnh hưởng của chiến thắng Điện Biên Phủ và Điện Biên Phủ ngày nay... Viếng Nghĩa trang liệt sỹ A1, đồi A1 – Với 644 ngôi mộ là những chiến sĩ quân dân ta đã hy sinh anh dũng trong chiến dịch Điện Biên Phủ. Hầm Đờ Cát, Cầu Mường Thanh, sông Nậm Rốn, Tượng đài chiến thắng Điện Biên Phủ – Những địa danh vẫn còn mang đầy dư âm oai hùng của cuộc chiến mang ý nghĩa lịch sử của toàn dân tộc. Tối: Quý khách dùng cơm tối tại nhà hàng và tự do khám phá Thành phố Điện Biên."
             },
             {
                 "viTri": "ĐIỆN BIÊN - MỘC CHÂU",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2021/04/Ha-Noi-Son-La-Dien-Bien-Moc-Chau-3N2D-8.jpg",
                 "gthieuNgay": "Sáng: Quý khách dậy sớm ngắm bình minh trên núi, thưởng thức bữa sáng tại khách sạn. Đoàn làm thủ tục trả phòng khách sạn và lên đường về lại Hà Nội. Trên đường về quý khách được chiêm ngưỡng lại sự hùng vĩ của núi rừng Tây Bắc.  Trưa:  Dùng cơm trưa tại thành phố Sơn La.   Chiều: Sau khi ăn trưa quý khách quay về với Mộc Châu để ghé thăm Đồi Chè Mộc Châu, với những đồi chè xanh mướt trải dài đến tận bên kia đồi.  Tối: Trở về lại với thành phố Hà Nội. Đến đây, hành trình tour Điện Biên 3 ngày 2 đêm đầy thú vị đã kết thúc, HDV chào tạm biệt và hẹn gặp quý du khách trong những chuyến tour du lịch giá rẻ khác của Vietnam Booking."
             }
-        ]
+        ],
+        "id": "9"
     },
     {
         "diaDiem": "Hà Nội – Yên Tử",
-        "giaVe": 999000,
+        "giaVe": "999000",
         "gioThieu": "Đặt mua tour du lịch Hà Nội Yên Tử 1 ngày đi Chùa Đồng, Quý khách khám phá Quần thể danh thắng Yên Tử bao gồm hệ thống các di tích lịch sử, văn hóa gắn liền với thiền phái Trúc Lâm ở Việt Nam.",
-        "giaCu": 1399000,
+        "giaCu": "1399000",
         "ngayXuatPhat": "2023-03-24",
-        "soLuong": 45,
-        "daDat": 5,
+        "soLuong": "45",
+        "daDat": "5",
         "phuongTien": "bus",
-        "soNgay": 1,
+        "soNgay": "1",
         "tieuChuan": [
             "Bữa ăn trưa với đặc sản Yên Tử",
             "Hành hương bái Phật tại chùa Đồng",
@@ -391,18 +400,19 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2020/07/tour-ha-noi-yen-tu-1-ngay-1.jpg",
                 "gthieuNgay": "05h30-05h45:​ Xe và hướng dẫn viên (HDV) Vietnam Booking sẽ đón quý khách tại khu vực Phố Cổ Hà Nội hoặc Nhà Hát Lớn, quý khách lên xe khởi hành đi tour Yên Tử 1 ngày.   08h00-08h15: Tới Yên Tử, HDV địa phương sẽ đón và đưa đoàn đi chiêm ngưỡng cảnh rừng đại ngàn Yên Tử.  Quý khách tham quan:  Tháp tổ: Nơi lưu giữ xá lợi của Phật Hoàng Trần Nhân Tông. Chùa Hoa Yên, chùa Một Mái. Quý khách đến nhà ga Cáp treo để đi hệ  thống cáp thứ 2. Chiêm bái Tượng An Kỳ Sinh, bia Phật... Chinh phục đỉnh chùa Đồng: Nằm ở độ cao 1068m so với mặt nước biển. Lễ Phật và thưởng ngoạn cảnh đại ngàn Yên Tử từ trên đỉnh núi. 11h30: Ăn trưa tại nhà hàng dưới chân cáp treo Yên Tử, với những món ăn mang đậm hương vị nơi đây. 14h00: Quý khách lên xe về Hà Nội.  17h00: Đoàn về đến Hà Nội, xe và HDV đưa quý khách về lại điểm đón ban đầu trong khu vực phố cổ Hà Nội. Kết thúc chương trình tour du lịch Hà Nội Yên Tử 1 ngày - Hành hương chùa Đồng, hẹn gặp lại quý khách vào những tour du lịch giá rẻ tiếp theo."
             }
-        ]
+        ],
+        "id": "10"
     },
     {
         "diaDiem": "An Giang Cần Thơ",
-        "giaVe": 2599000,
-        "gioThieu": "Tour An Giang Cần Thơ 3N3Đ của Vietnam Booking sẽ mang bạn về với miền Tây mát mẻ với những khu rừng tràm ngát xanh, những đàn chim tung cánh, những món ăn miệt vườn cùng nụ cười dân dã của những con người đôn hậu, chất phát. ",
-        "giaCu": 3490000,
+        "giaVe": "2599000",
+        "gioThieu": "Tour An Giang Cần Thơ 3N3Đ của Vietnam Booking sẽ mang bạn về với miền Tây mát mẻ với những khu rừng tràm ngát xanh, những đàn chim tung cánh, những món ăn miệt vườn cùng nụ cười dân dã của những con người đôn hậu, chất phát.",
+        "giaCu": "3490000",
         "ngayXuatPhat": "2023-03-23",
-        "soLuong": 45,
-        "daDat": 15,
+        "soLuong": "45",
+        "daDat": "15",
         "phuongTien": "bus",
-        "soNgay": 4,
+        "soNgay": "4",
         "tieuChuan": [
             "Ngồi xuồng len lỏi giữa những cánh bèo xanh mướt trong Rừng Tràm Trà Sư trứ danh",
             "Khám phá Châu Đốc: Miếu Bà Chúa Xứ, Lăng Thoại Ngọc Hầu, Tây An Cổ Tự",
@@ -430,28 +440,29 @@
             {
                 "viTri": "HÀ TIÊN – MŨI NAI – CẦN THƠ – BẾN NINH KIỀU",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2020/07/tour-an-giang-can-tho-5.jpg",
-                "gthieuNgay": "Sáng: Quý khách dùng điểm tâm tại nhà hàng. Làm thủ tục trả phòng. Đoàn khởi hành đi tham quan các điểm du lịch Hà Tiên hấp dẫn như:  Bãi biển Mũi Nai: Hay còn gọi Lộc Trĩ là một bãi biển đẹp nằm ven bờ vịnh Thái Lan, một trong 10 cảnh đẹp nhất Hà Tiên.  Thạch Động Thôn Vân: Là hệ thống hang động trong lòng ngọn tháp đá với nhiều thạch nhũ có hình thù lạ mắt. Trưa: Đoàn dùng cơm trưa tại Rạch Giá.  Chiều: Đến Cần Thơ, quý khách nhận phòng khách sạn, nghỉ ngơi.   Tối: Xe đưa đoàn đến bến Ninh Kiều, tham gia chương trình \"Du thuyền trên sông Hậu\", dùng bữa tối và nghe Đờn Ca Tài Tử trên thuyền. Sau đó, quý khách tự do khám phá Tây Đô về đêm."
+                "gthieuNgay": "Sáng: Quý khách dùng điểm tâm tại nhà hàng. Làm thủ tục trả phòng. Đoàn khởi hành đi tham quan các điểm du lịch Hà Tiên hấp dẫn như:  Bãi biển Mũi Nai: Hay còn gọi Lộc Trĩ là một bãi biển đẹp nằm ven bờ vịnh Thái Lan, một trong 10 cảnh đẹp nhất Hà Tiên.  Thạch Động Thôn Vân: Là hệ thống hang động trong lòng ngọn tháp đá với nhiều thạch nhũ có hình thù lạ mắt. Trưa: Đoàn dùng cơm trưa tại Rạch Giá.  Chiều: Đến Cần Thơ, quý khách nhận phòng khách sạn, nghỉ ngơi.   Tối: Xe đưa đoàn đến bến Ninh Kiều, tham gia chương trình \\\"Du thuyền trên sông Hậu\\\", dùng bữa tối và nghe Đờn Ca Tài Tử trên thuyền. Sau đó, quý khách tự do khám phá Tây Đô về đêm."
             },
             {
                 "viTri": "CẦN THƠ – CHỢ NỔI CÁI RĂNG – VÀM XÁNG – TP HCM",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2020/07/tour-an-giang-can-tho-4.jpg",
                 "gthieuNgay": "Sáng: Quý khách dậy sớm, cùng tìm hiểu văn hóa của người dân Cần Thơ với chuyến đò tham quan khu Chợ Nổi Cái Răng – Ngôi chợ nổi tiếng của du lịch Cần Thơ. Tại đây, quý khách sẽ được nhìn ngắm những chiếc thuyền xuồng chở đầy trái cây, hàng hóa tấp nập, nhộn nhịp trên sông.   Sau khi tham quan, đoàn về khách sạn dùng bữa sáng Buffet, làm thủ tục trả phòng. Sau đó, đoàn tiếp tục hành trình đi tham quan KDL Vàm Xáng. Đoàn tận hưởng không gian bao la xanh mát của cây cối, không khí trong lành đậm chất thôn quê. Quý khách có thể tham gia những trò chơi dân gian hấp dẫn: câu cá, tát mương bắt cá,…  Trưa: Đoàn dùng bữa trưa với thực đơn hấp dẫn gồm các đặc sản miền Tây như: cá nướng trui, bánh xèo,...  Chiều: Đoàn khởi hành về lại TP HCM. Trên đường về, Quý khách dừng chân mua sắm đặc sản địa phương như: bánh Pía, nem chua, bánh dừa và trái cây ngon... làm quà tặng cho gia đình, người thân.  Về đến TP Hồ Chí Minh, kết thúc tour An Giang Cần Thơ, HDV chia tay và hẹn gặp lại Quý khách trong những tour du lịch giá rẻ hấp dẫn sau."
             }
-        ]
+        ],
+        "id": "11"
     },
     {
         "diaDiem": "Mỹ Tho – Tiền Giang – Cần Thơ",
-        "giaVe": 1888000,
+        "giaVe": "1888000",
         "gioThieu": "Đến với Tour Miền Tây 2 ngày 1 đêm, quý khách sẽ được khám phá một diện mạo mới mẻ của miền sông nước kết hợp với những nét đẹp đặc trưng của chốn miệt vườn.",
-        "giaCu": 2199000,
+        "giaCu": "2199000",
         "ngayXuatPhat": "2023-04-24",
-        "soLuong": 45,
-        "daDat": 0,
+        "soLuong": "45",
+        "daDat": "0",
         "phuongTien": "boat",
-        "soNgay": 2,
+        "soNgay": "2",
         "tieuChuan": [
             "Thăm chùa Vĩnh Tràng, cù lao Thới Sơn, khám phá Bến Tre... ",
-            "Ăn tối trên Du thuyền 5 sao Cần Thơ trong tiếng hát Đờn Ca Tài Tử ",
+            "Ăn tối trên Du thuyền 5 sao Cần Thơ trong tiếng hát Đờn Ca Tài Tử",
             "Đi thuyền trên chợ nổi Cái Răng, thưởng thức trái cây tươi ngon tại vườn",
             "Trải nghiệm vô vàn những trò chơi dân dã, náo nhiệt khác"
         ],
@@ -473,18 +484,19 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2021/04/tour-mien-tay-2-ngay-1-dem-3.jpg",
                 "gthieuNgay": "Sáng: Du khách dùng bữa sáng tại khách sạn sau đó di chuyển ra bến Ninh Kiều tiếp tục chuyến du lịch miền Tây bằng thuyền. Đoàn sẽ đi thuyền tham quan:  Cảng cá địa phương Chợ Cần Thơ truyền thống Cầu Quang Trung Chợ nổi Cái Răng: được xem là một trong những chợ nổi lớn nhất Đồng bằng sông Cửu Long Làng nghề hủ tiếu Sau đó, đoàn đến tham quan KDL Mỹ Khánh và trải nghiệm:  Tham quan vườn trái cây Check in tại vườn hoa Mỹ Khánh, động chim yến Xem đua heo, đua chó vui nhộn, xiếc dê, xiếc khỉ, xiếc chó, hồ cá sấu, cá bú bình, vườn thú hoang dã.... Tham quan nhà cổ hơn 100 tuổi Tìm hiểu và chụp ảnh Thiền Viện Trúc Lâm Phương Nam - công trình kiến trúc đậm nét văn hóa nhà Lý - Trần.  Trưa: Quý khách dùng cơm trưa tại nhà hàng và nghỉ ngơi tự do.  Chiều: Xe đưa quý khách đi tham quan Coffee – phim trường Căn nhà màu tím đang nổi đình đám tại đất Tây Đô với phong cách độc đáo chỉ duy nhất 1 màu “tím mộng mơ”. Đoàn tự do tham quan, chụp ảnh.  Sau đó tạm biệt Cần Thơ, đoàn lên xe khởi hành về Thành phố Hồ Chí Minh.  Tối: Đoàn tham quan về đến Sài Gòn, trả khách ở điểm đón ban đầu. Kết thúc chương trình du lịch miền Tây 2 ngày 1 đêm. HDV chia tay và hẹn gặp lại Quý Khách trong các tour du lịch trong nước thú vị khác."
             }
-        ]
+        ],
+        "id": "12"
     },
     {
         "diaDiem": "Đảo Phú Quý",
-        "giaVe": 3190000,
-        "gioThieu": "Đặt ngay tour Đảo Phú Quý 2 ngày 2 đêm, Quý khách được chiêm ngưỡng nét bình yên và mộc mạc hiếm có của vùng đất đầy nắng và gió Bình Thuận. ",
-        "giaCu": 5104000,
+        "giaVe": "3190000",
+        "gioThieu": "Đặt ngay tour Đảo Phú Quý 2 ngày 2 đêm, Quý khách được chiêm ngưỡng nét bình yên và mộc mạc hiếm có của vùng đất đầy nắng và gió Bình Thuận.",
+        "giaCu": "5104000",
         "ngayXuatPhat": "2023-05-01",
-        "soLuong": 45,
-        "daDat": 25,
+        "soLuong": "45",
+        "daDat": "25",
         "phuongTien": "bus",
-        "soNgay": 3,
+        "soNgay": "3",
         "tieuChuan": [
             "Tham quan những địa điểm tuyệt đẹp của đảo: Gành Hang, cột cờ đảo Phú Quý, dốc phượt, bờ kè Lăng Cô, bãi đá bảy màu, đấu trường La Mã.",
             "Trải nghiệm lặn ngắm San Hô tại Hòn Tranh.",
@@ -516,18 +528,19 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2020/12/tour-phu-quy-2-ngay-2-dem-7.jpg",
                 "gthieuNgay": "Sáng: Đoàn thức dậy đón bình minh và dùng điểm tâm sáng tại Quán Thuận Phát. Nối tiếp hành trình tour Đảo Phú Quý 2 ngày, đoàn tham quan những địa điểm tiếp theo:  Bờ kè Đảo Phú Quý: Du khách có thể thu được 1001 tấm ảnh với khung cảnh xanh mướt của biển cả. Song với đó là nét chấm phá của 7 sắc cầu vồng đã được thực hiện trong chiến dịch Mùa Hè Xanh và ngắm nhìn vẻ đẹp bãi đá Bảy Màu. Đấu trường La Mã: Quý khách sẽ được tham quan vẻ đẹp trời Âu ngay tại Phú Quý cùng với những công trình bằng đá đầy ấn tượng. Sau đó Quý khách trở về khách sạn làm thủ tục trả phòng và di chuyển chuyển xuống cảng làm thủ tục lên tàu về lại Phan Thiết.  Trưa: Đoàn cập cảng Phan Thiết, xe trung chuyển đón Quý khách đến bến xe, làm thủ tục check in lên xe giường nằm về lại TP. Hồ Chí Minh. (Quý khách tự túc bữa trưa tại bến xe trong lúc chờ xe về).  Chiều: Quý khách lên xe về lại Thành phố Hồ Chí Minh.  Tối: Xe đưa quý khách về đến Sài Gòn. Kết thúc chuyến tham quan Tour Phú Quý 2N2Đ đầy hấp dẫn. Hướng dẫn viên Vietnam Booking gửi lời chia tay với Quý khách và hẹn ngày gặp lại ở những tour du lịch giá rẻ hấp dẫn tiếp theo.   LƯU Ý: Thứ tự và chi tiết trong chương trình có thể thay đổi cho phù hợp với tình hình thực tế, nhưng vẫn đảm bảo đủ điểm đến tham quan!"
             }
-        ]
+        ],
+        "id": "13"
     },
     {
         "diaDiem": "Mũi Né",
-        "giaVe": 3490000,
+        "giaVe": "3490000",
         "gioThieu": "Tour du lịch Mũi Né bằng tàu hỏa từ Sài Gòn 3 ngày 2 đêm sẽ đưa du khách đến với kinh đô nghỉ dưỡng bậc nhất tại Việt Nam. Đến đây, bạn sẽ được thỏa thích trong không gian thoáng đãng của bãi biển xanh đầy nắng và gió. Đặc biệt là vẻ đẹp ấn tượng của đồi cát hồng bao la bát ngát.",
-        "giaCu": 4890000,
+        "giaCu": "4890000",
         "ngayXuatPhat": "2023-05-01",
-        "soLuong": 45,
-        "daDat": 5,
+        "soLuong": "45",
+        "daDat": "5",
         "phuongTien": "bus",
-        "soNgay": 3,
+        "soNgay": "3",
         "tieuChuan": [
             "Vui chơi tại Khu du lịch Núi Tà Cú",
             "Khám phá quần thể di tích chùa tháp, hang động và tượng Phật",
@@ -562,24 +575,25 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2020/07/Phanthiet5.jpg",
                 "gthieuNgay": "Sáng: Du khách dùng bữa sáng ở nhà hàng rồi hoàn tắt thủ tục trả phòng. Chuyến đi tour du lịch Mũi Né bằng tàu hỏa 3 ngày 2 đêm đã gần đến chặng cuối của hành trình:  Quý khách được tự tắm biển, bơi lội thỏa thích trong làn nước biển trong xanh. Nơi tham quan cuối cùng là Bảo tàng nước mắm Làng Chài Xưa có một không hai trên khắp mảnh đất hình chữ S. Ở đây vẫn giữ được không gian làng chài Phan Thiết xưa từ hơn 300 năm trước. Quý khách được nghe HDV giới thiệu và dẫn đi tìm hiểu 14 không gian tương tác từ thời Champa  còn tồn tại đến nay. Biết được ai là người khai sáng ra ngành nước mắm. Du ngoạn tại làng chài lưới và khu phố Phan Thiết xưa. Check-in cùng Đại Dương 3D. Quý khách tự chi trả cho hoạt động này. Trưa: Đoàn di chuyển đến nhà hàng địa phương để dùng bữa trưa.  Chiều: Xe đưa du khách đến ga Phan Thiết để di chuyển về ga Sài Gòn để kết thúc Tour du lịch Mũi Né bằng tàu hỏa. Hướng dẫn viên chào Quý khách và hẹn gặp lại ở những tour du lịch giá rẻ tiếp theo.  LƯU Ý: Thứ tự và chi tiết trong chương trình có thể thay đổi cho phù hợp với tình hình thực tế, nhưng vẫn đảm bảo đủ điểm đến tham quan!"
             }
-        ]
+        ],
+        "id": "14"
     },
     {
         "diaDiem": "Sài Gòn – Phan Thiết",
-        "giaVe": 1890000,
+        "giaVe": "1890000",
         "gioThieu": "Tour Sài Gòn Phan Thiết 2 Ngày 1 Đêm sẽ đưa du khách đến với một vùng biển xanh đầy nắng và gió. Nơi có những đồi cát mênh mông cùng những rặng dừa xanh rì rào trong gió. Chuyến đi này sẽ mang lại cho quý khách những kỷ niệm sâu sắc, khó quên",
-        "giaCu": 2690000,
+        "giaCu": "2690000",
         "ngayXuatPhat": "2023-05-01",
-        "soLuong": 45,
-        "daDat": 0,
+        "soLuong": "45",
+        "daDat": "0",
         "phuongTien": "bus",
-        "soNgay": 2,
+        "soNgay": "2",
         "tieuChuan": [
             "Khám phá những điểm đến hấp dẫn nhất của Mũi Né: Đồi Cát Bay, Lâu đài Rượu Vang, Sealink...",
             "Thỏa thích tắm biển, ngâm mình trong làn nước xanh biếc của biển Mũi Né.",
             "Tham quan các cơ sở sản xuất nước mắm và hải sản khô.",
             "Nghỉ dưỡng tại resort 3 - 4 sao sang trọng, đẳng cấp.",
-            "Thưởng thức những bữa ăn ẩm thực biển tươi ngon, đậm vị. "
+            "Thưởng thức những bữa ăn ẩm thực biển tươi ngon, đậm vị."
         ],
         "imgsTour": [
             "https://www.vietnambooking.com/wp-content/uploads/2020/06/Tour-Sai-Gon-Phan-Thiet-2N1D-1.jpg",
@@ -600,23 +614,24 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2020/06/Tour-Sai-Gon-Phan-Thiet-2N1D-4.jpg",
                 "gthieuNgay": "Sáng: Quý khách dùng bữa sáng buffet do resort chuẩn bị. Sau đó HDV hỗ trợ khách hoàn tất thủ tục trả phòng. Tour Mũi Né 2 ngày 1 đêm vẫn tiếp tục.  Xe đưa đoàn khách đến Lâu Đài Rượu Vang Sealink để tham quan và tìm hiểu về địa danh này. Đến với Lâu đài rượu vang RD, quý khách như lạc vào một cung điện Châu Âu, nguy nga, lộng lẫy và cổ kính.  Tại đây, du khách vừa có cơ hội ngắm nhìn lối thiết kế độc đáo của các công trình kiến trúc, vừa được trải nghiệm các loại rượu vang chất lượng và hảo hạng. Tiếp đến, du khách sẽ đi từng bước xuống hầm rượu nằm sâu trong lòng đất, tham quan và giải trí. Dịch vụ tốt sẽ mang đến cho quý khách những phút giây thật tuyệt.  Trưa: Du khách được xe đưa đến nhà hàng địa phương để dùng bữa trưa. Sau đó nghỉ ngơi.  Trên quãng đường trở về Sài Gòn, quý khách sẽ dừng chân rại các cơ sở sản xuất nước mắm và mặt hàng hải sản khô. Du khách được thấy tận mắt các công đoạn để làm ra những giọt mắm tươi ngon đầu tiên hay cách thức sấy khố các loại hải sản.  Tối: Về đến TPHCM. Kết thúc chương trình tour Sài Gòn Mũi Né 2 ngày 1 đêm. HDV Vietnam Booking chào tạm biệt và hẹn gặp lại quý khách trong những tour du lịch giá rẻ tiếp theo.  LƯU Ý: Thứ tự và chi tiết trong chương trình có thể thay đổi cho phù hợp với tình hình thực tế, nhưng vẫn đảm bảo đủ điểm đến tham quan !"
             }
-        ]
+        ],
+        "id": "15"
     },
     {
         "diaDiem": "Tuyệt Tình Cốc Ninh Bình",
-        "giaVe": 999000,
+        "giaVe": "999000",
         "gioThieu": "Chương trình tour Tuyệt Tình Cốc Ninh Bình 1 ngày đặc sắc với nhiều điểm tham quan hấp dẫn, như đưa chúng ta về lại quá khứ vàng son xa xưa.",
-        "giaCu": 1665000,
+        "giaCu": "1665000",
         "ngayXuatPhat": "2023-05-01",
-        "soLuong": 45,
-        "daDat": 45,
+        "soLuong": "45",
+        "daDat": "45",
         "phuongTien": "bus",
-        "soNgay": 1,
+        "soNgay": "1",
         "tieuChuan": [
             "Khám phá Tuyệt Tình Cốc: Động Am Tiên, Chùa Am Tiên, Ao Giải...",
             "Chinh phục Hang Múa với 500 bậc đá. ",
             "Chiêm ngưỡng Đầm sen, thuê đồ cổ trang để chụp hình.",
-            "Lên thuyền thăm Khu du lịch sinh Thái Tràng An, cơ hội được tự chèo kayak. "
+            "Lên thuyền thăm Khu du lịch sinh Thái Tràng An, cơ hội được tự chèo kayak."
         ],
         "imgsTour": [
             "https://www.vietnambooking.com/wp-content/uploads/2021/01/tour-tuyet-tinh-coc-hang-mua-ninh-binh-1-ngay-1.jpg",
@@ -632,18 +647,19 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2021/01/tour-tuyet-tinh-coc-hang-mua-ninh-binh-1-ngay-1.jpg",
                 "gthieuNgay": "07h30-08h00: Xe và hướng dẫn viên (HDV) Vietnam Booking đón Quý khách tại khu vực phố Cổ và Nhà hát lớn khởi hành đi du lịch Ninh Bình.  10h30: Đến nơi, đoàn bắt đầu trải nghiệm tour Tuyệt Tình Cốc Ninh Bình 1 ngày với nhiều điểm đến hấp dẫn:  Tuyệt Tình Cốc: Đây là nơi được coi là chốn bồng lai tiên cảnh của người xưa và nay đã trở thành một ốc đảo xanh tách biệt với thế giới bên ngoài. Quý khách tự do leo qua 205 bậc đá để đến với Động Am Tiên và Chùa Am Tiên ở lưng chừng núi.  Động Am Tiên: Động có hình giống như miệng con rồng nên còn được gọi là hang rồng. Trong hang có nhiều nhũ đá có hình cây thóc, cây tiền, trái phật thủ, nụ hoa sen rủ xuống cùng những giọt nước. Chùa Am Tiên: Từng là nơi Thái hậu Dương Vân Nga xuất gia tu hành và dành những ngày cuối đời của mình tại đây.  Ao Giải: Đứng từ trên chùa Am Tiên nhìn xuống bạn sẽ thấy hồ nước trong xanh, nhìn thấu rong rêu được bao bọc xung quanh bởi vách núi đá. 11h30: Đoàn tới Hang Múa, quý khách bách bộ qua những lối đi vòng vèo, chinh phục đỉnh núi Hang Múa với 500 bậc đá. Tới đỉnh núi, bạn có thể thu vào tầm mắt cả đất trời Hoa Lư rộng lớn với vẻ yên bình nhưng lộng lẫy như một bức tranh thủy mặc.  Trên hành trình trở lại chúng ta đi ngang qua khu vực Đầm sen nằm giữa những rặng núi đá vôi tạo nên một khung cảnh cực kỳ thơ mộng và cổ trang. Quý khách có thể thuê những bộ đồ cổ trang để chụp hình tại đây (chi phí tự túc).  13h00: Quý khách về nhà hàng nghỉ ngơi ăn trưa. 14h00: Xe đưa Quý khách ra bến Tràng An. Đoàn lên thuyền tham quan Khu du lịch sinh Thái Tràng An - nơi có những dải đá vôi, thung lũng và sông ngòi đan xen nhau tạo nên một không gian huyền ảo, kỳ bí.  ⇒ QUÝ KHÁCH LỰA CHỌN 1 TRONG 2 HÌNH THỨC THAM QUAN  Lựa chọn 01: Ngồi thuyền ngắm cảnh  Tuyến này rất phù hợp với những bạn trẻ, những người thích chụp ảnh Check in.  Đoàn tham quan 4 hang động tự nhiên trong số những hang động đẹp nhất trong khu du lịch Tràng An là Hang Lấm, Hang Vạng, Hang Thánh Trượt và hang cuối cùng là Hang Đại. Quý khách còn dừng chân ghé thăm các điểm tâm linh như đền Suối Tiên và Hành Cung Vũ Lâm. Ngồi đò thăm hang và lưu lại những cảm xúc, những bức hình đẹp trong hành trình về thăm Tràng An. Lựa chọn 02: Tự chèo Kayak  Quý khách được tự chèo thuyền Kayak ngắm vẻ đẹp hùng vĩ của di sản văn hóa và thiên nhiên thế giới Tràng An. Trước khi xuống thuyền các nhân viên sẽ hướng dẫn các quy trình từ mặc áo phao, lộ trình chuyến đi, quy cách chèo thuyền Kayak để đảm bảo an toàn nhất.   17h00: Kết thúc chương trình quý khách lên xe trở về Hà Nội.  19h30: Đoàn về đến Hà Nội, trả khách tại điểm hẹn, kết thúc tour Tuyệt Tình Cốc Ninh Bình 1 ngày. HDV Vietnam Booking chia tay đoàn và hẹn gặp lại quý khách trong những tour du lịch giá rẻ sau.  LƯU Ý: Thứ tự và chi tiết trong chương trình có thể thay đổi cho phù hợp với tình hình thực tế, nhưng vẫn đảm bảo đủ điểm đến tham quan !"
             }
-        ]
+        ],
+        "id": "16"
     },
     {
         "diaDiem": "Ninh Bình",
-        "giaVe": 1199000,
+        "giaVe": "1199000",
         "gioThieu": "Đặt mua tour Ninh Bình 1 ngày: Hà Nội - Hang Múa - Tràng An - Hoa Lư của Vietnam Booking sẽ đưa quý khách đến với những trải nghiệm đặc sắc tại vùng đất địa linh Ninh Bình.",
-        "giaCu": 2365000,
+        "giaCu": "2365000",
         "ngayXuatPhat": "2023-05-01",
-        "soLuong": 45,
-        "daDat": 32,
+        "soLuong": "45",
+        "daDat": "32",
         "phuongTien": "bus",
-        "soNgay": 1,
+        "soNgay": "1",
         "tieuChuan": [
             "Chinh phục Hang Múa, chiêm ngưỡng cảnh đẹp Tràng An - \"Vịnh Hạ Long trên cạn\" từ trên cao",
             "Ngồi thuyền trên dòng sông xanh êm đềm, tận mắt chiêm ngưỡng vẻ đẹp hùng vĩ, nên thơ, hữu tình của Ninh Bình",
@@ -664,18 +680,19 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2019/10/tour-trang-an-hang-mua-1-ngay-5.jpg",
                 "gthieuNgay": "08h00: Xe và hướng dẫn viên (HDV) Vietnam Booking sẽ đón quý khách tại khu vực Phố Cổ Hà Nội hoặc Nhà Hát Lớn, quý khách lên xe khởi hành đi Ninh Bình.  Đến Ninh Bình, Quý khách vào thăm cố đô Hoa Lư - kinh đô một thời của Việt Nam vào thế kỷ thứ 10. Tại đây, quý khách tham quan các điểm:  Hai ngôi đền thờ vua Đinh -  vua Lê nhuốm màu thời gian cổ kính Khu khai quật bên cạnh đền thờ Lê Đại Hành Chiêm ngưỡng khung cảnh thơ mộng, xinh đẹp của thung lũng Trường Yên Quý khách bắt đầu hành trình chinh phục đỉnh Hang Múa - địa điểm không thể bỏ qua khi đi du lịch Ninh Bình.  Đây là dịp để quý khách thử thách sự dẻo dai của mình khi leo lên đỉnh núi, qua gần 500 bậc thang đá, 2 bên là bờ thành rêu phong vững chãi nối liền từ chân núi lên đỉnh núi, được ví như Vạn Lý Trường Thành và được bao bọc bởi 1 dãy núi đá hùng vĩ phía sau.  Trên đường về, quý khách chiêm ngưỡng khu vực đầm sen đẹp như một bộ phim cổ trang. Quý khách tự do tham quan và chụp hình lưu niệm.  Trưa: Quý khách dùng bữa trưa tại nhà hàng với những món ngon đặc sản Ninh Bình. 14h00: Xe đưa quý khách di chuyển đến Khu du lịch sinh thái Tràng An - nơi có những dải đá vôi, thung lũng và những sông ngòi đan xen tạo nên một không gian huyền ảo, kỳ bí.  Đến bến đò Tràng An, quý khách lên thuyền để đi ngắm cảnh. Quý khách tham quan 4 hang động tự nhiên đẹp nhất Tràng An: Hang Lấm, hang Vang, hang Thánh Trượt và Hang Đại. Quý khách dừng chân ghé thăm 2 địa danh linh thiêng là đền Suối Tiên và Hành cung Vũ Lâm.  Sau khi tham quan, Quý khách lên xe khởi hành về lại Hà Nội.  Tối: Đoàn về đến Hà Nội, xe đưa quý khách về lại điểm đón ban đầu. Kết thúc chương trình tour du lịch Ninh Bình 1 ngày: Hà Nội – Hang Múa – Tràng An – Hoa Lư, hẹn gặp lại quý khách vào những tour du lịch trọn gói tiếp theo."
             }
-        ]
+        ],
+        "id": "17"
     },
     {
         "diaDiem": "Đồng bằng sông Cửu Long",
-        "giaVe": 4290000,
-        "gioThieu": "Tour Đồng bằng sông Cửu Long 4N3Đ sẽ mang đến cho du khách hành trình đáng nhớ tại 8 tỉnh thành nơi miền sông nước êm đềm, bình yên... ",
-        "giaCu": 6129000,
+        "giaVe": "4290000",
+        "gioThieu": "Tour Đồng bằng sông Cửu Long 4N3Đ sẽ mang đến cho du khách hành trình đáng nhớ tại 8 tỉnh thành nơi miền sông nước êm đềm, bình yên...",
+        "giaCu": "6129000",
         "ngayXuatPhat": "2023-05-03",
-        "soLuong": 45,
-        "daDat": 20,
+        "soLuong": "20",
+        "daDat": "45",
         "phuongTien": "bus",
-        "soNgay": 4,
+        "soNgay": "4",
         "tieuChuan": [
             "Mỹ Tho: chiêm bái chùa Vĩnh Tràng, lênh đênh sông Tiền ngắm 4 cù lao Long, Lân, Qui, Phụng",
             "Thưởng thức đặc sản kẹo dừa Bến Tre, hòa mình vào nếp sống văn hóa của người dân Nam Bộ hiền lành, chất phác.",
@@ -702,7 +719,7 @@
             {
                 "viTri": "SÀI GÒN – MỸ THO – CHÙA VĨNH TRÀNG – 4 CÙ LAO – BẾN TRE – CHÂU ĐỐC",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2023/04/tour-dong-bang-song-cuu-long-8.jpg",
-                "gthieuNgay": "Sáng: Quý khách tập trung tại điểm hẹn, xe và hướng dẫn viên (HDV) của Vietnam Booking đón du khách bắt đầu chương trình khám phá tour Đồng bằng sông Cửu Long 4N3Đ.   Đoàn dừng chân ăn sáng tại Mỹ Tho với món hủ tiếu trứ danh, sau đó xe đưa đoàn đi tham quan:   Chùa Vĩnh Tràng - ngôi chùa được xếp hạng di tích lịch sử - văn hóa cấp quốc gia năm 1984 và là ngôi chùa Phật giáo lớn nhất Tiền Giang, . Sau đó đoàn đến với Cảng Du Thuyền Mỹ Tho lên tàu di ngao du trên sông Tiền, ngắm cảnh 4 cù lao Long, Lân, Qui, Phụng. Dọc theo sông, du khách sẽ được trải nghiệm:  Tìm hiểu cách nuôi cá trên sông ở những bè cá nổi của người dân địa phương Chiêm ngưỡng cầu Rạch Miễu   Tàu đến cù lao Thới Sơn (cồn Lân), du khách ghé tham quan:  Nhà dân và vườn Bưởi Da Xanh với diện tích hơn 5000m2 Trại nuôi ong mật, thưởng thức những ly trà chanh mật ong. Dạo bước trên con đường làng xanh mát Đoàn lắng nghe những giai điệu Đờn Ca Tài Tử Xứ Dừa, thưởng thức miễn phí trái cây miễn phí. Sau đó, quý khách sẽ được thử ngồi xuồng chèo len lỏi vào các rạch nhỏ rợp bóng 2 hàng dừa nước.   Quay lại thuyền lớn, đoàn đi xuôi dòng sông Tiền đến Bến Tre thực hiện \"tour đặc sản ẩm thực\":  Lò kẹo dừa đặc sản Bến Tre Lò bánh tráng xã Tân Thạch Ngoài ra, đoàn còn được trải nghiệm đi xe ngựa trên đường làng.   Trưa: Tàu đưa quý khách đến Khu du lịch sinh thái Việt Nhật dùng bữa trưa. Trong lúc ăn cơm tại đây, đoàn có thể chiêm ngưỡng các loài động vật như cá sấu, nhím,... hoặc tham quan vườn Dừa, vườn trái cây. Đặc biệt quý khách còn có thể trải nghiệm miễn phí các trò chơi dân dã như đu dây, đi bộ cầu khỉ, đi xe đạp qua cầu,...  Chiều: Tàu đưa quý khách trở lại bến tàu về Mỹ Tho, lên xe khởi hành đi Châu Đốc - An Giang. Đến Châu Đốc, đoàn làm thủ tục nhận phòng khách sạn.  Tối: Quý khách dùng bữa tối tại nhà hàng Sunrise và tự do khám phá vẻ đẹp Châu Đốc về đêm."
+                "gthieuNgay": "Sáng: Quý khách tập trung tại điểm hẹn, xe và hướng dẫn viên (HDV) của Vietnam Booking đón du khách bắt đầu chương trình khám phá tour Đồng bằng sông Cửu Long 4N3Đ.   Đoàn dừng chân ăn sáng tại Mỹ Tho với món hủ tiếu trứ danh, sau đó xe đưa đoàn đi tham quan:   Chùa Vĩnh Tràng - ngôi chùa được xếp hạng di tích lịch sử - văn hóa cấp quốc gia năm 1984 và là ngôi chùa Phật giáo lớn nhất Tiền Giang, . Sau đó đoàn đến với Cảng Du Thuyền Mỹ Tho lên tàu di ngao du trên sông Tiền, ngắm cảnh 4 cù lao Long, Lân, Qui, Phụng. Dọc theo sông, du khách sẽ được trải nghiệm:  Tìm hiểu cách nuôi cá trên sông ở những bè cá nổi của người dân địa phương Chiêm ngưỡng cầu Rạch Miễu   Tàu đến cù lao Thới Sơn (cồn Lân), du khách ghé tham quan:  Nhà dân và vườn Bưởi Da Xanh với diện tích hơn 5000m2 Trại nuôi ong mật, thưởng thức những ly trà chanh mật ong. Dạo bước trên con đường làng xanh mát Đoàn lắng nghe những giai điệu Đờn Ca Tài Tử Xứ Dừa, thưởng thức miễn phí trái cây miễn phí. Sau đó, quý khách sẽ được thử ngồi xuồng chèo len lỏi vào các rạch nhỏ rợp bóng 2 hàng dừa nước.   Quay lại thuyền lớn, đoàn đi xuôi dòng sông Tiền đến Bến Tre thực hiện \\\"tour đặc sản ẩm thực\\\":  Lò kẹo dừa đặc sản Bến Tre Lò bánh tráng xã Tân Thạch Ngoài ra, đoàn còn được trải nghiệm đi xe ngựa trên đường làng.   Trưa: Tàu đưa quý khách đến Khu du lịch sinh thái Việt Nhật dùng bữa trưa. Trong lúc ăn cơm tại đây, đoàn có thể chiêm ngưỡng các loài động vật như cá sấu, nhím,... hoặc tham quan vườn Dừa, vườn trái cây. Đặc biệt quý khách còn có thể trải nghiệm miễn phí các trò chơi dân dã như đu dây, đi bộ cầu khỉ, đi xe đạp qua cầu,...  Chiều: Tàu đưa quý khách trở lại bến tàu về Mỹ Tho, lên xe khởi hành đi Châu Đốc - An Giang. Đến Châu Đốc, đoàn làm thủ tục nhận phòng khách sạn.  Tối: Quý khách dùng bữa tối tại nhà hàng Sunrise và tự do khám phá vẻ đẹp Châu Đốc về đêm."
             },
             {
                 "viTri": "CHÂU ĐỐC – RỪNG TRÀM TRÀ SƯ – ĂN TỐI DU THUYỀN CẦN THƠ",
@@ -712,25 +729,26 @@
             {
                 "viTri": "CẦN THƠ – CHỢ NỔI CÁI RĂNG – MŨI CÀ MAU",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2023/04/tour-dong-bang-song-cuu-long-3.jpg",
-                "gthieuNgay": "Sáng: Đoàn tham quan đi chợ nổi Cái Răng - khu chợ trên sông sầm uất và là đặc trưng miền sông nước.  Đoàn về khách sạn dùng điểm tâm sáng, làm thủ tục trả phòng, sau đó lên xe tiếp tục chuyến tham quan tour Đồng bằng sông Cửu Long 4N3Đ. Đoàn hướng đến Cà Mau.  Đến Sóc Trăng quý khách tham quan ngôi chùa Chén Kiểu có kiến trúc độc đáo của người Khmer  Tiếp tục hành trình, đoàn đi tham quan danh thắng của Bạc Liêu:  Nhà thờ Tắc Sậy - Giá Rai Bạc Liêu viếng mộ vị linh mục nổi tiếng - Cha Trương Bửu Diệp. Trưa: Đến thành phố Cà Mau quý khách dùng cơm trưa, nghỉ ngơi.  Chiều: Xe đưa đoàn đi tham quan khám phá Đất Mũi Cà Mau. Tại đây, đoàn được đi xuyên rừng ngập mặn với khung cảnh thiên nhiên hoang sơ:  Tận mắt chiêm ngưỡng và chụp ảnh lưu niệm tại Mốc tọa độ Quốc gia – GPS 0001, Panô biểu tượng Mũi Cà Mau đầy thiêng liêng của tổ quốc. Đi lên Vọng Hải Đài cao 20,5 mét ngắm nhìn toàn cảnh điểm cực Nam của đất nước. Tham quan Vườn Quốc Gia Mũi Cà Mau: ngắm nhìn Hệ sinh thái rừng ngập mặn tại Khu Dự trữ Sinh quyển Thế giới.   Cột cờ tại đất mũi Cà Mau, tượng mẹ Âu Cơ, ghé thăm bảo tàng Đoàn quay lại trung tâm Thành phố Cà Mau làm thủ tục nhận phòng khách sạn, dùng cơm tối.   Tối: Quý khách tự do khám phá ẩm thực địa phương của Cà Mau về đêm. "
+                "gthieuNgay": "Sáng: Đoàn tham quan đi chợ nổi Cái Răng - khu chợ trên sông sầm uất và là đặc trưng miền sông nước.  Đoàn về khách sạn dùng điểm tâm sáng, làm thủ tục trả phòng, sau đó lên xe tiếp tục chuyến tham quan tour Đồng bằng sông Cửu Long 4N3Đ. Đoàn hướng đến Cà Mau.  Đến Sóc Trăng quý khách tham quan ngôi chùa Chén Kiểu có kiến trúc độc đáo của người Khmer  Tiếp tục hành trình, đoàn đi tham quan danh thắng của Bạc Liêu:  Nhà thờ Tắc Sậy - Giá Rai Bạc Liêu viếng mộ vị linh mục nổi tiếng - Cha Trương Bửu Diệp. Trưa: Đến thành phố Cà Mau quý khách dùng cơm trưa, nghỉ ngơi.  Chiều: Xe đưa đoàn đi tham quan khám phá Đất Mũi Cà Mau. Tại đây, đoàn được đi xuyên rừng ngập mặn với khung cảnh thiên nhiên hoang sơ:  Tận mắt chiêm ngưỡng và chụp ảnh lưu niệm tại Mốc tọa độ Quốc gia – GPS 0001, Panô biểu tượng Mũi Cà Mau đầy thiêng liêng của tổ quốc. Đi lên Vọng Hải Đài cao 20,5 mét ngắm nhìn toàn cảnh điểm cực Nam của đất nước. Tham quan Vườn Quốc Gia Mũi Cà Mau: ngắm nhìn Hệ sinh thái rừng ngập mặn tại Khu Dự trữ Sinh quyển Thế giới.   Cột cờ tại đất mũi Cà Mau, tượng mẹ Âu Cơ, ghé thăm bảo tàng Đoàn quay lại trung tâm Thành phố Cà Mau làm thủ tục nhận phòng khách sạn, dùng cơm tối.   Tối: Quý khách tự do khám phá ẩm thực địa phương của Cà Mau về đêm."
             },
             {
                 "viTri": "CÀ MAU – NHÀ CÔNG TỬ BẠC LIÊU – CÁNH ĐỒNG QUẠT GIÓ – SÓC TRĂNG – SÀI GÒN",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2023/04/tour-dong-bang-song-cuu-long-10.jpg",
                 "gthieuNgay": "Sáng: Đoàn ăn sáng tại khách sạn, làm thủ tục trả phòng, sau đó quay về Bạc Liêu tham quan các địa điểm du lịch miền Tây đặc sắc:  Cánh đồng quạt gió: Đây là điểm check-in cực HOT của giới trẻ Bạc Liêu.  Nhà Công Tử Bạc Liêu: Tham quan ngôi nhà có lịch sử hơn 100 năm và lắng nghe giai thoại về cuộc sống vàng son một thời của cậu Ba Huy (Trần Trinh Huy). Phật Bà Nam Hải: Chiêm bái và cầu nguyện may mắn cho người thân. Khu tưởng niệm cố nhạc sĩ Cao Văn Lầu: Tìm hiểu về vị cố nhạc sĩ tài ba.  Trưa: Đoàn về Sóc Trăng tham quan cơ sở sản xuất bánh Pía nổi tiếng. Đến nhà hàng ở Hậu Giang dùng cơm trưa với những món đặc sản Nam Bộ, nghỉ ngơi.   Chiều: Sau khi dùng cơm trưa, đoàn tiếp tục khởi hành về thành phố Hồ Chí Minh.  Tối: Khoảng 19h00 Đoàn tham quan về đến TPHCM, kết thúc chương trình tour đồng bằng sông Cửu Long 4N3Đ đầy thú vị và ý nghĩa. HDV chia tay và hẹn gặp lại du khách trong các tour du lịch giá rẻ thú vị khác.  Lưu ý: Thứ tự và chi tiết trong chương trình có thể thay đổi cho phù hợp với tình hình thực tế, nhưng vẫn đảm bảo đủ điểm đến tham quan!"
             }
-        ]
+        ],
+        "id": "18"
     },
     {
         "diaDiem": "Cần Thơ Bến Tre",
-        "giaVe": 1099000,
+        "giaVe": "1099000",
         "gioThieu": "Tour Cần Thơ Bến Tre 1 ngày đưa quý khách đi khám phá không gian miệt vườn miền Tây bằng xuồng ba lá và xe ngựa độc đáo.",
-        "giaCu": 1570000,
+        "giaCu": "1570000",
         "ngayXuatPhat": "2023-05-06",
-        "soLuong": 45,
-        "daDat": 23,
+        "soLuong": "45",
+        "daDat": "23",
         "phuongTien": "bus",
-        "soNgay": 1,
+        "soNgay": "1",
         "tieuChuan": [
             "Viếng Chùa Vĩnh Tràng hơn 100 năm tuổi.",
             "Du ngoạn trên sông Tiền ngắm cảnh 4 cù lao: Long, Lân, Qui, Phụng.",
@@ -751,23 +769,24 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2021/02/tour-can-tho-ben-tre-1-ngay-1.jpg",
                 "gthieuNgay": "07h00: Xe và hướng dẫn viên (HDV) Vietnam Booking đón quý khách tại khách sạn hoặc điểm hẹn. Sau đó, đoàn khởi hành đi Tiền Giang bắt đầu chương trình Tour Cần Thơ Bến Tre 1 ngày.  09h30: Đến Mỹ Tho, Xe và HDV đưa quý khách tham quan và viếng:  Chùa Vĩnh Tràng (Vĩnh Trường Cổ Tự): Ngôi chùa cổ với tuổi đời hơn 100 năm, mang hai nét văn hoá kiến trúc Đông – Tây xen lẫn nhau tạo nên vẻ đẹp hài hoà cho Cổ Tự. Sau đó, xe và HDV đưa quý khách đến bến tàu Mỹ Tho làm thủ tục xuống thuyền tham quan. Quý khách du ngoạn trên sông Tiền ngắm cảnh 4 cù lao: Long, Lân, Quy, Phụng và cảng cá Mỹ Tho, làng nuôi cá bè dọc cù lao Tân Long.  Đến cù lao Thới Sơn, một địa điểm du lịch miền Tây nổi tiếng:  Đến nhà dân tham quan trại nuôi ong và thưởng thức trà mật ong với các loại mứt đặc sản. Đặc biệt, đoàn thử thách chụp hình lưu niệm với trăn gấm. Dã bộ trên đường làng Thới Sơn tham quan lò kẹo dừa, thưởng thức kẹo dừa truyền thống. Thưởng thức trái cây theo mùa và nghe nhạc tài tử Nam Bộ. Trải nghiệm xuồng chèo trong rạch dưới 2 hàng dừa nước xanh mát. Đi xe ngựa truyền thống dạo quanh đường làng. Sau đó thuyền máy đưa đoàn đến Cồn Phụng. HDV đưa quý khách dùng cơm trưa tại nhà hàng Cồn Phụng với những món ăn đặc sản địa phương và tự do nghỉ ngơi. Sau đó, quý khách tiếp tục hành trình tham quan Cồn Phụng: thánh địa ông Đạo Dừa, trại nuôi cá sấu, vườn thú mini…  14h00: Thuyền máy đưa quý khách trở lại Mỹ Tho, Xe và HDV đưa quý khách tham quan trại rắn Đồng Tâm – trung tâm dược học lớn nhất Tây Nam Bộ. 15h00: Quý khách chia tay thành phố Mỹ Tho, Xe và HDV đưa quý khách khởi hành đến Cần Thơ.  Đoàn về đến TP.Cần Thơ, Xe và HDV đưa quý khách về lại điểm hẹn hoặc điểm đón ban đầu kết thúc hành trình tour Cần Thơ Bến Tre 1 ngày. Trước khi chia tay HDV thay mặt công ty nói lời chào tạm biệt và hẹn gặp lại quý khách trong những tour du lịch giá rẻ sau!  LƯU Ý: Thứ tự và chi tiết trong chương trình có thể thay đổi cho phù hợp với tình hình thực tế, nhưng vẫn đảm bảo đủ điểm đến tham quan !"
             }
-        ]
+        ],
+        "id": "19"
     },
     {
         "diaDiem": "Cần Thơ An Giang Đồng Tháp",
-        "giaVe": 1799000,
-        "gioThieu": "Chương trình tour Cần Thơ An Giang Đồng Tháp 2 ngày 1 đêm đưa chúng ta đến mảnh đất miền Tây thân thương với bao điều hấp dẫn, lênh đênh trên những con thuyền khám phá khung cảnh sông nước. ",
-        "giaCu": 2999000,
+        "giaVe": "1799000",
+        "gioThieu": "Chương trình tour Cần Thơ An Giang Đồng Tháp 2 ngày 1 đêm đưa chúng ta đến mảnh đất miền Tây thân thương với bao điều hấp dẫn, lênh đênh trên những con thuyền khám phá khung cảnh sông nước.",
+        "giaCu": "2999000",
         "ngayXuatPhat": "2023-05-01",
-        "soLuong": 45,
-        "daDat": 43,
+        "soLuong": "45",
+        "daDat": "43",
         "phuongTien": "boat",
-        "soNgay": 2,
+        "soNgay": "2",
         "tieuChuan": [
             "Đi thuyền tắc ráng thăm Rừng Tràm Trà Sư: cầu tre vạn bước, ngôi nhà “Trống – Mái”, tháp canh... ",
             "Ghé Châu Đốc viếng Miếu bà chúa Xứ, Lăng Thoại Ngọc Hầu, Chùa Hang.",
             "Thăm \"Vựa Hoa Miền Tây\" Sa Đéc: Làng hoa kiểng Tân Quy Đông, Kiến An Cung, Nhà cổ Huỳnh Thủy Lê...",
-            "Đến KDL Xẻo Quýt tham quan môi trường sinh thái đa dạng và thưởng thức nhiều món đặc sản hấp dẫn. "
+            "Đến KDL Xẻo Quýt tham quan môi trường sinh thái đa dạng và thưởng thức nhiều món đặc sản hấp dẫn."
         ],
         "imgsTour": [
             "https://www.vietnambooking.com/wp-content/uploads/2021/02/tour-can-tho-an-giang-dong-thap-1.jpg",
@@ -785,20 +804,21 @@
             {
                 "viTri": "CHÂU ĐỐC – SA ĐÉC – KDL XẺO QUÝT",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2021/02/tour-can-tho-an-giang-dong-thap-5.jpg",
-                "gthieuNgay": "Sáng: Quý khách dùng điểm tâm sáng tại khách sạn và tự do sinh hoạt.  Xe và HDV đón đoàn đi Đồng Tháp, tiếp tục hành trình du lịch miền Tây hấp dẫn. Đến Sa Đéc “Vựa Hoa Miền Tây”, quý khách tham quan:  Làng hoa kiểng Tân Quy Đông – Làng Hoa Sa Đéc: Diện tích hoa kiểng hiện nay của làng lên đến trên 400 ha, hơn 2.000 hộ trồng và kinh doanh cung cấp cho thị trường trong và ngoài nước. Chùa Kiến An Cung: Có niên đại trên trăm năm tuổi với lối kiến trúc mang đậm phong cách Phúc Kiến Trung Hoa. Nhà cổ Huỳnh Thủy Lê: Của một bá hộ ở Sa Đéc xưa, đoàn nghe câu chuyện tình lãng mạn của chủ nhân xuất hiện trong tác phẩm \"Người Tình\" (L’amant) của nữ văn sĩ Pháp Marguerite Duras viết và đã được dựng thành phim cùng tên. Trưa: Xe và HDV đưa quý khách đến nhà hàng dùng bữa trưa đặc sản địa phương (Chi phí tự túc) và tự do nghỉ ngơi. Sau đó, đoàn khởi hành đi Xẻo Quít – nơi được mệnh danh là bức tranh “Đồng Tháp thu nhỏ”.  Nếu vào mùa khô, bạn sẽ len lỏi theo những con đường mòn ngoằn ngoèo dưới tán tràm mát rượi. Mùa nước lên, trên chiếc xuồng ba lá, những cô du kích áo bà ba đen, khăn rằn, nón tai bèo đưa bạn luồn lách qua những con rạch nhỏ hoang sơ vào những di tích nằm khuất trong rừng tràm mênh mông. Trên đường đi quý khách có thể tự túc thưởng thức món ăn dân dã và là đặc sản nơi đây như: cơm nắm lá sen muối mè. Quý khách sẽ được dân địa phương chở đi bằng xuồng ba lá men theo rừng tràm xem gỡ chài bắt cá, tôm.  Chiều: Chia tay Đồng Tháp, Xe và HDV đưa quý khách khởi hành về lại Cần Thơ.  Đến Cần Thơ, đoàn về lại điểm hẹn hoặc điểm đón ban đầu, kết thúc chuyến hành trình tour Cần Thơ An Giang Đồng Tháp 2 ngày 1 đêm. Trước khi chia tay HDV Vietnam Booking thay mặt công ty nói lời chào tạm biệt và hẹn gặp lại quý khách trong các tour du lịch giá rẻ sau.  LƯU Ý: Thứ tự và chi tiết trong chương trình có thể thay đổi cho phù hợp với tình hình thực tế, nhưng vẫn đảm bảo đủ điểm đến tham quan !"
+                "gthieuNgay": "Sáng: Quý khách dùng điểm tâm sáng tại khách sạn và tự do sinh hoạt.  Xe và HDV đón đoàn đi Đồng Tháp, tiếp tục hành trình du lịch miền Tây hấp dẫn. Đến Sa Đéc “Vựa Hoa Miền Tây”, quý khách tham quan:  Làng hoa kiểng Tân Quy Đông – Làng Hoa Sa Đéc: Diện tích hoa kiểng hiện nay của làng lên đến trên 400 ha, hơn 2.000 hộ trồng và kinh doanh cung cấp cho thị trường trong và ngoài nước. Chùa Kiến An Cung: Có niên đại trên trăm năm tuổi với lối kiến trúc mang đậm phong cách Phúc Kiến Trung Hoa. Nhà cổ Huỳnh Thủy Lê: Của một bá hộ ở Sa Đéc xưa, đoàn nghe câu chuyện tình lãng mạn của chủ nhân xuất hiện trong tác phẩm \\\"Người Tình\\\" (L’amant) của nữ văn sĩ Pháp Marguerite Duras viết và đã được dựng thành phim cùng tên. Trưa: Xe và HDV đưa quý khách đến nhà hàng dùng bữa trưa đặc sản địa phương (Chi phí tự túc) và tự do nghỉ ngơi. Sau đó, đoàn khởi hành đi Xẻo Quít – nơi được mệnh danh là bức tranh “Đồng Tháp thu nhỏ”.  Nếu vào mùa khô, bạn sẽ len lỏi theo những con đường mòn ngoằn ngoèo dưới tán tràm mát rượi. Mùa nước lên, trên chiếc xuồng ba lá, những cô du kích áo bà ba đen, khăn rằn, nón tai bèo đưa bạn luồn lách qua những con rạch nhỏ hoang sơ vào những di tích nằm khuất trong rừng tràm mênh mông. Trên đường đi quý khách có thể tự túc thưởng thức món ăn dân dã và là đặc sản nơi đây như: cơm nắm lá sen muối mè. Quý khách sẽ được dân địa phương chở đi bằng xuồng ba lá men theo rừng tràm xem gỡ chài bắt cá, tôm.  Chiều: Chia tay Đồng Tháp, Xe và HDV đưa quý khách khởi hành về lại Cần Thơ.  Đến Cần Thơ, đoàn về lại điểm hẹn hoặc điểm đón ban đầu, kết thúc chuyến hành trình tour Cần Thơ An Giang Đồng Tháp 2 ngày 1 đêm. Trước khi chia tay HDV Vietnam Booking thay mặt công ty nói lời chào tạm biệt và hẹn gặp lại quý khách trong các tour du lịch giá rẻ sau.  LƯU Ý: Thứ tự và chi tiết trong chương trình có thể thay đổi cho phù hợp với tình hình thực tế, nhưng vẫn đảm bảo đủ điểm đến tham quan !"
             }
-        ]
+        ],
+        "id": "20"
     },
     {
         "diaDiem": "Vĩnh Long – Cần Thơ",
-        "giaVe": 1599000,
+        "giaVe": "1599000",
         "gioThieu": "Tour Vĩnh Long Cần Thơ 2 ngày 1 đêm khách đoàn sẽ mang du khách khám đến với những cảnh đẹp sông nước. Không những vậy, du khách còn có phút giây thư giãn sau ngày dài mệt mỏi.",
-        "giaCu": 2558400,
+        "giaCu": "2558400",
         "ngayXuatPhat": "2023-05-02",
-        "soLuong": 45,
-        "daDat": 10,
+        "soLuong": "45",
+        "daDat": "10",
         "phuongTien": "boat",
-        "soNgay": 2,
+        "soNgay": "2",
         "tieuChuan": [
             "Trải nghiệm nét văn hóa mua bán trên sông đặc thù tại chợ nổi Cái Răng.",
             "Tham quan nhà cổ Bình Thủy, căn nhà màu tím",
@@ -827,18 +847,19 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2022/11/tour-vinh-long-can-tho-2n1d-khach-doan-9.jpg",
                 "gthieuNgay": "Sáng: Xe và HDV đưa du khách đón ngày mới bằng trải nghiệm tham quan chợ nổi Cái Răng. Đến với nơi đây, du khách có thể tìm hiểu lối sống độc đáo của người dân miền Tây sông nước vô cùng sầm uất.  Đoàn di chuyển trở lại khách sạn dùng bữa sáng buffet và làm thủ tục trả phòng. Đến với những đoạn cuối của cuộc hành trình tour Vĩnh Long - Cần Thơ 2n1d khách đoàn, đoàn đến với các địa điểm tham quan:  Nhà cổ Bình Thủy: Đây là ngôi nhà cổ được đánh giá đẹp nhất của thành phố Cần Thơ với niên đại hơn 100 năm. Du khách có thể trải nghiệm cảm giác vương giả khi dạo bước giữa sự giàu sang ngày ấy. Khu du lịch Cồn Sơn: Quý khách được trải nghiệm những hoạt động mang đậm chất Tây Nam Bộ. Qua đó, du khách sẽ cảm nhận được sự mộc mạc, chân chất của làng quê Nam Bộ. Làng Cá Bè: Quý khách được tìm hiểu về hình thức nuôi cá vô cùng độc đáo của người dân bản địa. Chưa dừng lại tại đó, du khách còn được thưởng thức món chả cá thác lác và trải nghiệm massage cá có vảy. Khi du khách dạo quanh con đường rợp bóng cây xanh, Quý khách sẽ được tham quan các vườn trái cây theo mùa và trải nghiệm khu Cá Lóc Bay cực kỳ độc đáo. Trưa: Đoàn dùng bữa trưa với các món ăn dân dã miền quê.  Tối: Xe và HDV đưa đoàn trở lại điểm hẹn ban đầu, kết thúc hành trình tour Vĩnh Long – Cần Thơ 2n1d khách đoàn, HDV Vietnam Booking gửi lời cảm ơn, lời chúc sức khỏe và hẹn gặp lại Quý khách tại các chương trình tiếp theo.  LƯU Ý: Thứ tự và chi tiết trong chương trình có thể thay đổi cho phù hợp với tình hình thực tế, nhưng vẫn đảm bảo đủ điểm đến tham quan!"
             }
-        ]
+        ],
+        "id": "21"
     },
     {
         "diaDiem": "TP.HCM – Đà Nẵng – Bà Nà Hills – Hội An – Huế",
-        "giaVe": 11490000,
+        "giaVe": "11490000",
         "gioThieu": "Đến với chuyến hành trình TP.HCM – Đà Nẵng – Hội An – Huế 4 ngày 3 đêm, du khách sẽ được tận hưởng chuyến đi du xuân đầu năm vui vẻ tại miền đất di sản.",
-        "giaCu": 16083900,
+        "giaCu": "16083900",
         "ngayXuatPhat": "2024-01-03",
-        "soLuong": 45,
-        "daDat": 20,
+        "soLuong": "45",
+        "daDat": "20",
         "phuongTien": "plane",
-        "soNgay": 4,
+        "soNgay": "4",
         "tieuChuan": [
             "Khám phá các địa điểm HOT của Đà Nẵng: chùa Linh Ứng, biển Mỹ Khê.",
             "Chinh phục đỉnh Bà Nà Hills: Vườn hoa, Làng Pháp, Fantasy Park,...",
@@ -863,7 +884,7 @@
             {
                 "viTri": "TP.HCM – ĐÀ NẴNG – CHÙA LINH ỨNG – PHỐ CỔ HỘI AN",
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2022/11/tour-tphcm-da-nang-hoi-an-hue-4N3D-13.jpg",
-                "gthieuNgay": "Sáng: Hướng dẫn viên Vietnam Booking đón Quý khách tại Ga Quốc nội, sân bay Tân Sơn Nhất làm thủ tục đáp chuyến bay đi Đà Nẵng.  Đến Đà Nẵng, đoàn bắt đầu tham gia chương trình Tour du lịch Huế Tết 2024 - Đà Nẵng - Bà Nà - Hội An 4 ngày 3 đêm. Xe sẽ đưa quý khách vào trung tâm theo con đường biển Sơn Trà – ngắm bãi biển Mỹ Khê và tham quan những điểm đến đầu tiên:  Bán đảo Sơn Trà: Du khách sẽ bị choáng ngợp bởi hệ thống cảnh quan tuyệt đẹp. Ngoài ra, bán đảo còn sở hữu những địa điểm tuyệt đẹp khiến ai đến rồi cũng phải nhớ mãi. Chùa Linh Ứng Bãi Bụt: Đây là một trong ba ngôi chùa cùng tên nổi tiếng của vùng đất Đà Nẵng. Ngôi chùa còn sở hữu vị trí đắc địa khiến cho du khách khi đến với đây không khỏi siêu lòng. Trưa: Xe đón quý khách dùng cơm trưa với đặc sản \"bán tráng cuốn thịt heo. Đoàn di chuyển về khách sạn nhận phòng và nghỉ ngơi..  Chiều: Đoàn tự do tham quan và vui chơi tại bãi biển Mỹ Khê. Đoàn tiếp tục hành trình khám phá tại những địa điểm thú vị trong tour du lịch Tết TP.HCM – Đà Nẵng – Bà Nà Hills – Hội An – Huế 4N3Đ.  Ngũ Hành Sơn - Làng nghề điêu khắc non nước: Ngũ Hành Sơn bao gồm những ngọn núi mọc gần nhau và quy tụ cảnh đẹp núi non trùng điệp. Du khách vừa khám phá thắng cảnh vừa thấu hiểu thêm những câu chuyện bí ẩn trong quá trình hình thành hệ thống núi. Phố cổ Hội An - một quần thể kiến trúc cổ kính độc đáo với: Chùa Ông, Hội quán Phước Kiến, chùa cầu Nhật Bản, nhà cổ Phùng Hưng, Làng nghề thủ công Mỹ nghệ… Tối: Quý khách bữa tối tự do với đặc sản Hội An như Cao lầu, mì quảng,... Đoàn về lại Đà Nẵng, nghỉ ngơi, tự do tham quan, ngắm cầu quay sông Hàn. Nghỉ đêm tại Đà Nẵng."
+                "gthieuNgay": "Sáng: Hướng dẫn viên Vietnam Booking đón Quý khách tại Ga Quốc nội, sân bay Tân Sơn Nhất làm thủ tục đáp chuyến bay đi Đà Nẵng.  Đến Đà Nẵng, đoàn bắt đầu tham gia chương trình Tour du lịch Huế Tết 2024 - Đà Nẵng - Bà Nà - Hội An 4 ngày 3 đêm. Xe sẽ đưa quý khách vào trung tâm theo con đường biển Sơn Trà – ngắm bãi biển Mỹ Khê và tham quan những điểm đến đầu tiên:  Bán đảo Sơn Trà: Du khách sẽ bị choáng ngợp bởi hệ thống cảnh quan tuyệt đẹp. Ngoài ra, bán đảo còn sở hữu những địa điểm tuyệt đẹp khiến ai đến rồi cũng phải nhớ mãi. Chùa Linh Ứng Bãi Bụt: Đây là một trong ba ngôi chùa cùng tên nổi tiếng của vùng đất Đà Nẵng. Ngôi chùa còn sở hữu vị trí đắc địa khiến cho du khách khi đến với đây không khỏi siêu lòng. Trưa: Xe đón quý khách dùng cơm trưa với đặc sản \\\"bán tráng cuốn thịt heo. Đoàn di chuyển về khách sạn nhận phòng và nghỉ ngơi..  Chiều: Đoàn tự do tham quan và vui chơi tại bãi biển Mỹ Khê. Đoàn tiếp tục hành trình khám phá tại những địa điểm thú vị trong tour du lịch Tết TP.HCM – Đà Nẵng – Bà Nà Hills – Hội An – Huế 4N3Đ.  Ngũ Hành Sơn - Làng nghề điêu khắc non nước: Ngũ Hành Sơn bao gồm những ngọn núi mọc gần nhau và quy tụ cảnh đẹp núi non trùng điệp. Du khách vừa khám phá thắng cảnh vừa thấu hiểu thêm những câu chuyện bí ẩn trong quá trình hình thành hệ thống núi. Phố cổ Hội An - một quần thể kiến trúc cổ kính độc đáo với: Chùa Ông, Hội quán Phước Kiến, chùa cầu Nhật Bản, nhà cổ Phùng Hưng, Làng nghề thủ công Mỹ nghệ… Tối: Quý khách bữa tối tự do với đặc sản Hội An như Cao lầu, mì quảng,... Đoàn về lại Đà Nẵng, nghỉ ngơi, tự do tham quan, ngắm cầu quay sông Hàn. Nghỉ đêm tại Đà Nẵng."
             },
             {
                 "viTri": "KDL BÀ NÀ HILLS – KHÁM PHÁ ĐÀ NẴNG",
@@ -880,6 +901,7 @@
                 "imgNgay": "https://www.vietnambooking.com/wp-content/uploads/2022/11/tour-tphcm-da-nang-hoi-an-hue-4N3D-12.png",
                 "gthieuNgay": "Sáng: Quý khách dùng bữa sáng tại khách sạn, làm thủ tục trả phòng. Xe đưa đoàn đi tham quan các địa điểm du lịch Huế nổi tiếng như:  Đại Nội - Kinh Thành Hoàng Cung: Đại Nội thuộc quần thể di tích Cố đô Huế với lối kiến trúc độc đáo đã được UNESCO công nhận là di sản văn hóa thế giới. Đến với nơi đây, du khách sẽ ngỡ như được quay ngược quá khứ vào thời vua chùa. Chùa Thiên Mụ: Ngôi chùa linh thiêng bậc nhất tại xứ Huế mộng mơ. Chùa Thiên Mụ đã có tuổi đời hàng trăm năm nên các công trình tại đây cũng hiện hữu một nét rất riêng bên dòng sông Hương trầm mặc. Trưa: Đoàn dùng cơm trưa tại nhà hàng địa phương. Sau đó đoàn ghé trạm dừng chân, mua sắm đặc sản để làm quà cho người thân và bạn bè.  Chiều: Xe đưa Quý khách ra sân bay Huế, làm thủ tục và đáp chuyến bay về lại Sài Gòn. Kết thúc chuyến tham quan tour du lịch Tết TP.HCM – Đà Nẵng – Bà Nà Hills – Hội An – Huế 4 ngày 3 đêm nhiều ý nghĩa. HDV chia tay, chúc sức khoẻ và hẹn gặp lại quý khách vào những tour du lịch Tết giá rẻ tiếp theo.  LƯU Ý: Thứ tự và chi tiết trong chương trình có thể thay đổi cho phù hợp với tình hình thực tế, nhưng vẫn đảm bảo đủ điểm đến tham quan !"
             }
-        ]
+        ],
+        "id": "22"
     }
 ]
