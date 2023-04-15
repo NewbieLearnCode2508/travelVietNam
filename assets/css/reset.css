@@ -29,88 +29,9 @@ body {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 ul,li,ol {
     list-style: none;
 }
-
-/* 
-
-<div class="header-top row">
-                    <div class="header-top-left col l-4 m-3 c-12">
-                        <div class="header-logo">
-                            <a href="#" class="header-logo-link">
-                                <img
-                                    src="https://bizweb.dktcdn.net/100/372/532/themes/744930/assets/logo.png?1678097130634"
-                                    alt="Logo"
-                                    class="header-logo-img"
-                                />
-                            </a>
-                        </div>
-                    </div>
-                    <div class="header-top-center col l-4 m-3 c-0">
-                        <div class="header-search">
-                            <input type="text" class="header-search__input" />
-                        </div>
-                    </div>
-                    <div class="header-top-right col l-4 m-6 c-0">
-                        <div class="header-top-right__account">
-                            <i class="fa-solid fa-user"></i>
-                            Tài khoản
-                        </div>
-                        <div class="header-top-right__favorite">
-                            <i class="fa-regular fa-heart"></i>
-                            <span class="status-quantity"> 0 </span>
-                        </div>
-                        <div class="header-top-right__cart">
-                            <i class="fa-solid fa-basket-shopping"></i>
-                            <span class="status-quantity"> 0 </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="header-bottom">
-                    <ul class="header__navigation">
-                        <li class="header__navigation-item">
-                            <a href="#" class="header__navigation-item__link"
-                                >Trang chủ</a
-                            >
-                        </li>
-                        <li class="header__navigation-item">
-                            <a href="./assets/pages/gioiThieu.html" target="_blank" class="header__navigation-item__link"
-                                >Giới thiệu</a
-                            >
-                        </li>
-                        <li class="header__navigation-item">
-                            <a href="tour-du-lich" class="header__navigation-item__link"
-                                >Tour du lịch</a
-                            >
-                        </li>
-                        <li class="header__navigation-item">
-                            <a href="khuyen-mai" class="header__navigation-item__link"
-                                >Tour khuyến mãi</a
-                            >
-                        </li>
-                        <li class="header__navigation-item">
-                            <a href="news" class="header__navigation-item__link"
-                                >Tin tức</a
-                            >
-                        </li>
-                        <li class="header__navigation-item">
-                            <a href="review" class="header__navigation-item__link"
-                                >Kinh nghiệm du lịch</a
-                            >
-                        </li>
-                        <li class="header__navigation-item">
-                            <a href="FAQ" class="header__navigation-item__link"
-                                >FAQ</a
-                            >
-                        </li>
-                        <li class="header__navigation-item">
-                            <a href="contact" class="header__navigation-item__link"
-                                >Liên hệ</a
-                            >
-                        </li>
-                    </ul>
-                </div>
-*/

@@ -139,6 +139,11 @@
     transform: scale(1);
 }
 
+.account-link {
+    height: 100%;
+    width: 100%;
+}
+
 .account-tool {
     transition: all linear 0.16s;
     transform: scale(0);
