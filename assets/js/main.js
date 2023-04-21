@@ -76,9 +76,8 @@ async function showItemTravel(idx) {
                         <span
                             class="itemTravel__leftcolumn--card--tour--item__title"
                         >
-                            - ${tieuchuan}
+                            - ${tieuchuan} <br>
                         </span>
-                        <br /><br />
                         `;
                     })}
                 </div>
@@ -105,20 +104,39 @@ async function showItemTravel(idx) {
                 <h2>
                     ${data.diaDiem}
                 </h2>
-                <br /><br />
                 <p class="itemTravel__rightcolumn--card--newprice">
                     Giá mới: ${giaVe} vnd
                 </p>
                 <p class="itemTravel__rightcolumn--card--oldprice">
                     Giá cũ: ${giaCu} vnd
                 </p>
-                <br /><br /><br />
                 <p
                     class="itemTravel__rightcolum--card--tour--item__title"
                     style="font-size: 14px"
                 >
                     <ion-icon name="airplane-outline"></ion-icon>
                     Di chuyển bằng ${data.phuongTien}
+                </p>
+                <p
+                    class="itemTravel__rightcolum--card--tour--item__title"
+                    style="font-size: 14px"
+                >
+                    <ion-icon name="airplane-outline"></ion-icon>
+                    Số lượng vé: ${data.soLuong}
+                </p>
+                <p
+                    class="itemTravel__rightcolum--card--tour--item__title"
+                    style="font-size: 14px"
+                >
+                    <ion-icon name="airplane-outline"></ion-icon>
+                    Đã đặt: ${data.daDat}
+                </p>
+                <p
+                    class="itemTravel__rightcolum--card--tour--item__title"
+                    style="font-size: 14px"
+                >
+                    <ion-icon name="airplane-outline"></ion-icon>
+                    Ngày xuất phát: ${data.ngayXuatPhat}
                 </p>
                 <p
                     class="itemTravel__rightcolum--card--tour--item__title"
@@ -136,14 +154,12 @@ async function showItemTravel(idx) {
                     <ion-icon name="calendar-outline"></ion-icon>
                     Thời gian: ${data.soNgay} ngày
                 </p>
-                <br />
                 <p
                     class="itemTravel__rightcolum--card--tour--item__title"
                     style="font-size: 14px"
                 >
                     ${data.gioThieu}
                 </p>
-                <br />
                 <button class="itemTravel__rightcolumn--card--btn">
                     Đặt Tour
                 </button>

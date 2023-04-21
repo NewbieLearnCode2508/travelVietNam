@@ -1,4 +1,3 @@
-
 .content__current-position {
     width: 100%;
     margin: auto;
@@ -62,7 +61,11 @@
 }
 .itemTravel__rightcolumn--card h2 {
     font-size: 25px;
-    margin-bottom: 12px;
+}
+
+.itemTravel__rightcolum--card--tour--item__title {
+    margin: 8px 0;
+    font-size: 1.6rem;
 }
 
 .rightcolunm-list__item {
@@ -159,13 +162,34 @@
 }
 
 .itemTravel__rightcolumn--card--btn {
-    font-size: 25px;
-    color: white;
-    background-color: rgb(1, 1, 243);
-    border-radius: 10px;
+    position: relative;
+    color: #2e2e2e;
+    padding: 8px 24px;
+    width: 150px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 24px 14px;
+    border-radius: 4px;
 }
 
-.itemTravel__rightcolumn--card--btn:hover {
-    color: rgb(1, 1, 243);
-    background-color: white;
+.itemTravel__rightcolumn--card--btn::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #2e2e2e;
+    z-index: 9;
+    transition: all linear 0.2s;
+    background-color: var(--primary-color);
+    z-index: -1;
+    border-radius: 4px;
+}
+
+.itemTravel__rightcolumn--card--btn:hover::after {
+    top: 0;
+    left: 0;
 }
