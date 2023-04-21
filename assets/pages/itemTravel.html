@@ -21,16 +21,20 @@
         <link rel="stylesheet" href="../css/style.css" />
         <link rel="stylesheet" href="../css/grid.css" />
         <link rel="stylesheet" href="../css/gioiThieu.css" />
+        <link rel="stylesheet" href="../css/itemTravel.css" />
         <title>Du Lịch Việt Nam</title>
     </head>
     <body>
         <div class="container">
             <div id="header">
                 <div class="row header-top">
-                    <div class="col center logo l-3 full-h">
-                        <a href="#" class="center logo-link full-h">
+                    <div class="col center logo l-3 m-6 s-12 full-h">
+                        <a
+                            href="../../index.html"
+                            class="center logo-link full-h"
+                        >
                             <img
-                                src="https://bizweb.dktcdn.net/100/372/532/themes/744930/assets/logo.png?1678097130634"
+                                src="../imgs/logo/341141452_549420797318923_4659011543583366190_n.png"
                                 alt="logo"
                                 class="logo-img full-h"
                             />
@@ -48,10 +52,10 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col logo l-4 account-and-cart center">
+                    <div class="col logo l-3 m-6 s-12 account-and-cart center">
                         <div class="account-box">
                             <a
-                                href="../pages/account.html"
+                                href="../pages/account_signin.html"
                                 class="account-link center"
                             >
                                 <i class="fa-solid fa-user"></i>
@@ -59,12 +63,16 @@
                             </a>
                             <ul class="account-tool">
                                 <li class="account-tool__item center">
-                                    <a href="#" class="account-tool__item-link"
+                                    <a
+                                        href="../pages/account_signin.html"
+                                        class="account-tool__item-link"
                                         >Đăng Nhập</a
                                     >
                                 </li>
                                 <li class="account-tool__item center">
-                                    <a href="#" class="account-tool__item-link"
+                                    <a
+                                        href="../pages/account_signup.html"
+                                        class="account-tool__item-link"
                                         >Đăng Ký</a
                                     >
                                 </li>
@@ -110,6 +118,7 @@
                         <div data-page="trang-chu" class="navbar-item">
                             <a
                                 class="navbar-item__link"
+                                data-link="homepage"
                                 href="../../index.html"
                             >
                                 Trang chủ
@@ -118,7 +127,8 @@
                         <div data-page="gioi-thieu" class="navbar-item">
                             <a
                                 class="navbar-item__link"
-                                href="../../assets/pages/gioiThieu.html"
+                                data-link="gioiThieu"
+                                href="../pages/gioiThieu.html"
                             >
                                 Giới thiệu
                             </a>
@@ -126,6 +136,7 @@
                         <div data-page="tour-du-lich" class="navbar-item">
                             <a
                                 class="navbar-item__link"
+                                data-link="tourDuLich"
                                 href="../pages/tourDuLich.html"
                             >
                                 Tour du lịch
@@ -385,6 +396,7 @@
                         <div data-page="khuyen-mai" class="navbar-item">
                             <a
                                 class="navbar-item__link"
+                                data-link="tourKhuyenMai"
                                 href="../pages/tourKhuyenMai.html"
                             >
                                 Tour khuyến mãi
@@ -393,6 +405,7 @@
                         <div data-page="news" class="navbar-item">
                             <a
                                 class="navbar-item__link"
+                                data-link="tinTuc"
                                 href="../pages/tinTuc.html"
                             >
                                 Tin tức
@@ -401,6 +414,7 @@
                         <div data-page="faq" class="navbar-item">
                             <a
                                 class="navbar-item__link"
+                                data-link="FAQ"
                                 href="../pages/FAQ.html"
                             >
                                 FAQ
@@ -409,6 +423,7 @@
                         <div data-page="contact" class="navbar-item">
                             <a
                                 class="navbar-item__link"
+                                data-link="lienHe"
                                 href="../pages/lienHe.html"
                             >
                                 Liên hệ
@@ -417,7 +432,315 @@
                     </div>
                 </div>
             </div>
-            <div id="content"></div>
+            <div id="content">
+                <div class="itemTravel">
+                    <div class="itemTravel__leftcolumn">
+                        <div class="itemTravel__leftcolumn--card">
+                            <div class="card-content">
+                                <div>
+                                    <img
+                                        class="itemTravel__leftcolumn--card--picture"
+                                        src="https://www.vietnambooking.com/wp-content/uploads/2022/11/tour-tphcm-da-nang-hoi-an-hue-4N3D-7.png"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="itemTravel__leftcolumn--card">
+                            <h2>CHƯƠNG TRÌNH TOUR</h2>
+                            <div class="itemTravel__leftcolumn--card--tour">
+                                <div
+                                    class="itemTravel__leftcolumn--card--tour--item"
+                                >
+                                    <span
+                                        class="itemTravel__leftcolumn--card--tour--item__date"
+                                    >
+                                        Ngày 1: TP.HCM – ĐÀ NẴNG – CHÙA LINH ỨNG
+                                        – PHỐ CỔ HỘI AN
+                                    </span>
+                                    <p
+                                        class="itemTravel__leftcolumn--card--tour--item__title"
+                                    >
+                                        ❖ Sáng: Hướng dẫn viên Vietnam Booking
+                                        đón Quý khách tại Ga Quốc nội, sân bay
+                                        Tân Sơn Nhất làm thủ tục đáp chuyến bay
+                                        đi Đà Nẵng. Đến Đà Nẵng, đoàn bắt đầu
+                                        tham gia chương trình Tour du lịch Huế
+                                        Tết 2024 - Đà Nẵng - Bà Nà - Hội An 4
+                                        ngày 3 đêm. Xe sẽ đưa quý khách vào
+                                        trung tâm theo con đường biển Sơn Trà –
+                                        ngắm bãi biển Mỹ Khê và tham quan những
+                                        điểm đến đầu tiên: Bán đảo Sơn Trà: Du
+                                        khách sẽ bị choáng ngợp bởi hệ thống
+                                        cảnh quan tuyệt đẹp. Ngoài ra, bán đảo
+                                        còn sở hữu những địa điểm tuyệt đẹp
+                                        khiến ai đến rồi cũng phải nhớ mãi. Chùa
+                                        Linh Ứng Bãi Bụt: Đây là một trong ba
+                                        ngôi chùa cùng tên nổi tiếng của vùng
+                                        đất Đà Nẵng. Ngôi chùa còn sở hữu vị trí
+                                        đắc địa khiến cho du khách khi đến với
+                                        đây không khỏi siêu lòng. Trưa: Xe đón
+                                        quý khách dùng cơm trưa với đặc sản "bán
+                                        tráng cuốn thịt heo. Đoàn di chuyển về
+                                        khách sạn nhận phòng và nghỉ ngơi.<br />
+                                        ❖ Chiều: Đoàn tự do tham quan và vui
+                                        chơi tại bãi biển Mỹ Khê. Đoàn tiếp tục
+                                        hành trình khám phá tại những địa điểm
+                                        thú vị trong tour du lịch Tết TP.HCM –
+                                        Đà Nẵng – Bà Nà Hills – Hội An – Huế
+                                        4N3Đ. Ngũ Hành Sơn - Làng nghề điêu khắc
+                                        non nước: Ngũ Hành Sơn bao gồm những
+                                        ngọn núi mọc gần nhau và quy tụ cảnh đẹp
+                                        núi non trùng điệp. Du khách vừa khám
+                                        phá thắng cảnh vừa thấu hiểu thêm những
+                                        câu chuyện bí ẩn trong quá trình hình
+                                        thành hệ thống núi. Phố cổ Hội An - một
+                                        quần thể kiến trúc cổ kính độc đáo với:
+                                        Chùa Ông, Hội quán Phước Kiến, chùa cầu
+                                        Nhật Bản, nhà cổ Phùng Hưng, Làng nghề
+                                        thủ công Mỹ nghệ… Tối: Quý khách bữa tối
+                                        tự do với đặc sản Hội An như Cao lầu, mì
+                                        quảng,... Đoàn về lại Đà Nẵng, nghỉ
+                                        ngơi, tự do tham quan, ngắm cầu quay
+                                        sông Hàn.<br />
+                                        ❖ Nghỉ đêm tại Đà Nẵng.
+                                    </p>
+                                </div>
+                                <div
+                                    class="itemTravel__leftcolumn--card--tour--item"
+                                >
+                                    <span
+                                        class="itemTravel__leftcolumn--card--tour--item__date"
+                                    >
+                                        Ngày 2: KDL BÀ NÀ HILLS – KHÁM PHÁ ĐÀ
+                                        NẴNG
+                                    </span>
+                                    <p
+                                        class="itemTravel__leftcolumn--card--tour--item__title"
+                                    >
+                                        ❖ Sáng: Quý khách dùng bữa sáng tại
+                                        khách sạn và làm thủ tục trả phòng. Sau
+                                        đó, xe sẽ đưa đoàn đi tham quan, vui
+                                        chơi tại khu du lịch Bà Nà. Đến chân núi
+                                        Bà Nà, Quý khách trải nghiệm cáp treo
+                                        đạt kỷ lục thế giới và bắt đầu hành
+                                        trình vui chơi trải nghiệm tại đỉnh Bà
+                                        Nà - nơi có độ cao 1487m: Chùa Linh Ứng:
+                                        Ngôi chùa là một trong ba “Linh Ứng Tự”
+                                        của thành phố biển Đà Nẵng. Du khách có
+                                        thể chiêm ngưỡng khung cảnh thơ mộng
+                                        chen lẫn sự uy nghiêm và linh thiêng của
+                                        chùa Linh Ứng. Fantasy Park: Khu vui
+                                        chơi với đa dạng với hơn 100 trò chơi
+                                        với đủ độ tuổi. Du khách có thể cùng gia
+                                        đình thư giãn và gắn kết với gia đình
+                                        thông qua các trò chơi tại khu vực này.
+                                        Bảo tàng sáp: Du khách có thể chụp hình
+                                        với nhiều nhân vật nổi tiếng trên khắp
+                                        thế giới. Bảo tàng hiện nay đang sở hữu
+                                        49 tác phẩm nghệ thuật đặc sắc. Cây cầu
+                                        vàng Đà Nẵng trên đỉnh Bà Nà Hill: Cây
+                                        cầu vàng là một trong những địa điểm
+                                        “sống ảo” gây sóng dư luận vì lối thiết
+                                        kế độc đáo khiến cho ai đến với Đà Nẵng
+                                        đều mong muốn được chụp hình tại đây.<br />
+                                        ❖ Trưa: Đoàn ăn trưa tại nhà hàng của Bà
+                                        Nà.<br />
+                                        ❖ Chiều: Tạm biệt những địa điểm du lịch
+                                        Đà Nẵng, đoàn di chuyển đến với Cố Đô
+                                        Huế. Trên đường đi, du khách dừng chân
+                                        nghỉ ngơi và chụp hình tại Vịnh biển
+                                        Lăng Cô. Khi đến với Huế, đoàn nhận
+                                        phòng tại khách sạn và nghỉ ngơi.<br />
+                                        ❖ Tối: Xe và HDV đưa đoàn đến dùng cơm
+                                        tối tại nhà hàng. Đoàn tự do khám phá
+                                        Huế về đêm
+                                    </p>
+                                </div>
+                                <div
+                                    class="itemTravel__leftcolumn--card--tour--item"
+                                >
+                                    <span
+                                        class="itemTravel__leftcolumn--card--tour--item__date"
+                                    >
+                                        Ngày 3: ĐẠI NỘI – CHÙA THIÊN MỤ – TP.HCM
+                                    </span>
+                                    <p
+                                        class="itemTravel__leftcolumn--card--tour--item__title"
+                                    >
+                                        ❖ Sáng: Quý khách dùng bữa sáng tại
+                                        khách sạn, làm thủ tục trả phòng. Xe đưa
+                                        đoàn đi tham quan các địa điểm du lịch
+                                        Huế nổi tiếng như: Đại Nội - Kinh Thành
+                                        Hoàng Cung: Đại Nội thuộc quần thể di
+                                        tích Cố đô Huế với lối kiến trúc độc đáo
+                                        đã được UNESCO công nhận là di sản văn
+                                        hóa thế giới. Đến với nơi đây, du khách
+                                        sẽ ngỡ như được quay ngược quá khứ vào
+                                        thời vua chùa. Chùa Thiên Mụ: Ngôi chùa
+                                        linh thiêng bậc nhất tại xứ Huế mộng mơ.
+                                        Chùa Thiên Mụ đã có tuổi đời hàng trăm
+                                        năm nên các công trình tại đây cũng hiện
+                                        hữu một nét rất riêng bên dòng sông
+                                        Hương trầm mặc.<br />
+                                        ❖ Trưa: Đoàn dùng cơm trưa tại nhà hàng
+                                        địa phương. Sau đó đoàn ghé trạm dừng
+                                        chân, mua sắm đặc sản để làm quà cho
+                                        người thân và bạn bè.<br />
+                                        ❖ Chiều: Xe đưa Quý khách ra sân bay
+                                        Huế, làm thủ tục và đáp chuyến bay về
+                                        lại Sài Gòn. Kết thúc chuyến tham quan
+                                        tour du lịch Tết TP.HCM – Đà Nẵng – Bà
+                                        Nà Hills – Hội An – Huế 4 ngày 3 đêm
+                                        nhiều ý nghĩa. HDV chia tay, chúc sức
+                                        khoẻ và hẹn gặp lại quý khách vào những
+                                        tour du lịch Tết giá rẻ tiếp theo.
+                                    </p>
+                                    <p
+                                        class="itemTravel__leftcolumn--card--tour--item__warn"
+                                    >
+                                        !!!LƯU Ý: Thứ tự và chi tiết trong
+                                        chương trình có thể thay đổi cho phù hợp
+                                        với tình hình thực tế, nhưng vẫn đảm bảo
+                                        đủ điểm đến tham quan !
+                                    </p>
+                                </div>
+                            </div>
+                            <h2>CHÍNH SÁCH TOUR</h2>
+                            <div class="itemTravel__leftcolumn--card--tour">
+                                <h3>
+                                    GIÁ TOUR TRỌN GÓI (Áp dụng cho khách từ 12
+                                    tuổi đến 69 tuổi)
+                                </h3>
+                                <p
+                                    class="itemTravel__leftcolumn--card--tour--item__title"
+                                >
+                                    (Đã bao gồm đầy đủ thuế và phí - Giá tour có
+                                    thể thay đổi vào thời điểm đặt tour)
+                                </p>
+                                <br /><br />
+                                <h3>⫸ Vé trẻ em:</h3>
+                                <p
+                                    class="itemTravel__leftcolumn--card--tour--item__title"
+                                >
+                                    - Trẻ em từ 2 đến dưới 12 tuổi<br />
+                                    : 80% giá của người lớn (bé ngủ chung giường
+                                    với Bố Mẹ).<br />
+                                    : 90% giá của người lớn (bé có giường
+                                    riêng).<br /><br />
+                                    - Trẻ em từ 12 tuổi trở lên<br />
+                                    : 100% giá của người lớn
+                                </p>
+                                <br /><br />
+                                <h3>⫸ Giá tour bao gồm:</h3>
+                                <p
+                                    class="itemTravel__leftcolumn--card--tour--item__title"
+                                >
+                                    - Vé máy bay khứ hồi chặng SGN-ROME //
+                                    MILAN-SGN. Thuế sân bay quốc tế và nội
+                                    địa.<br />
+                                    - Khách sạn 4 sao, 02 người/ phòng 02 giường
+                                    đơn. Xe ôtô máy lạnh, vé tham quan và các
+                                    bữa ăn trong chương trình.<br />
+                                    - Visa nhập cảnh Châu Âu; HDV Ant Du lịch
+                                    suốt tuyến & tài xế địa phương. Quà tặng
+                                    (balo, nón).<br />
+                                </p>
+                                <br /><br />
+                                <h3>⫸ Giá tour không bao gồm:</h3>
+                                <p
+                                    class="itemTravel__leftcolumn--card--tour--item__title"
+                                >
+                                    - Chi phí làm hộ chiếu, các chương trình tự
+                                    chọn, nước uống, giặt ủi, điện thoại, hành
+                                    lý quá cước theo quy định của hàng không...
+                                    và các chi phí cá nhân khác của khách ngoài
+                                    chương trình.<br />
+                                    - Tiền bồi dưỡng cho hướng dẫn viên và tài
+                                    xế (05 EURO/khách/ngày).<br />
+                                </p>
+                                <br /><br />
+                            </div>
+                            <h2>ĐIỀU KHOẢN & QUY ĐỊNH</h2>
+                            <div class="itemTravel__leftcolumn--card--tour">
+                                <p
+                                    class="itemTravel__leftcolumn--card--tourRules"
+                                >
+                                    Điều khoản & Quy định đang cập nhật.
+                                </p>
+                            </div>
+                            <h2>ĐẶT TOUR</h2>
+                            <div class="itemTravel__leftcolumn--card--tour">
+                                <p
+                                    class="itemTravel__leftcolumn--card--tourRules"
+                                >
+                                    Đang cập nhật.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="itemTravel__rightcolumn">
+                        <div class="itemTravel__rightcolumn--card">
+                            <h2>
+                                TP.HCM – Đà Nẵng – Bà Nà Hills – Hội An – Huế
+                            </h2>
+                            <br /><br />
+                            <p class="itemTravel__rightcolumn--card--newprice">
+                                Giá mới: 11.490.000 vnd
+                            </p>
+                            <p class="itemTravel__rightcolumn--card--oldprice">
+                                Giá cũ: 16.083.900 vnd
+                            </p>
+                            <br /><br /><br />
+                            <p
+                                class="itemTravel__rightcolum--card--tour--item__title"
+                                style="font-size: 14px"
+                            >
+                                <ion-icon name="airplane-outline"></ion-icon>
+                                Di chuyển bằng máy bay
+                            </p>
+                            <p
+                                class="itemTravel__rightcolum--card--tour--item__title"
+                                style="font-size: 14px"
+                            >
+                                <ion-icon
+                                    name="calendar-clear-outline"
+                                ></ion-icon>
+                                Lịch khởi hành: Các ngày trong tuần
+                            </p>
+                            <p
+                                class="itemTravel__rightcolum--card--tour--item__title"
+                                style="font-size: 14px"
+                            >
+                                <ion-icon name="calendar-outline"></ion-icon>
+                                Thời gian: 4 ngày 3 đêm
+                            </p>
+                            <br />
+                            <p
+                                class="itemTravel__rightcolum--card--tour--item__title"
+                                style="font-size: 14px"
+                            >
+                                - Khám phá các địa điểm HOT của Đà Nẵng: chùa
+                                Linh Ứng, biển Mỹ Khê.<br />
+                                - Chinh phục đỉnh Bà Nà Hills: Vườn hoa, Làng
+                                Pháp, Fantasy Park,...<br />
+                                - Dạo quanh phố cổ Hội An và thưởng thức đặc
+                                sản.<br />
+                                - Khám phá vẻ đẹp kỳ bí của Phong Nha - Kẻ
+                                Bàng.<br />
+                                - Tìm về những dấu ấn lịch sử tại Huế cổ kính:
+                                Đại Nội, chùa Thiên Mụ.<br />
+                            </p>
+                            <br />
+                            <button class="itemTravel__rightcolumn--card--btn">
+                                Đặt Tour
+                            </button>
+                            <button class="itemTravel__rightcolumn--card--btn">
+                                Yêu cầu đặt
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <footer id="footer">
                 <div class="footer-custom">
                     <div class="footer-lists">

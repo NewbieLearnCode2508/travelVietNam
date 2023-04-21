@@ -20,17 +20,20 @@
         <link rel="stylesheet" href="../css/config.css" />
         <link rel="stylesheet" href="../css/style.css" />
         <link rel="stylesheet" href="../css/grid.css" />
-        <link rel="stylesheet" href="../css/gioiThieu.css" />
+        <link rel="stylesheet" href="../css/FAQ.css">
         <title>Du Lịch Việt Nam</title>
     </head>
     <body>
         <div class="container">
             <div id="header">
                 <div class="row header-top">
-                    <div class="col center logo l-3 full-h">
-                        <a href="#" class="center logo-link full-h">
+                    <div class="col center logo l-3 m-6 s-12 full-h">
+                        <a
+                            href="../../index.html"
+                            class="center logo-link full-h"
+                        >
                             <img
-                                src="https://bizweb.dktcdn.net/100/372/532/themes/744930/assets/logo.png?1678097130634"
+                                src="../imgs/logo/341141452_549420797318923_4659011543583366190_n.png"
                                 alt="logo"
                                 class="logo-img full-h"
                             />
@@ -48,10 +51,10 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col logo l-4 account-and-cart center">
+                    <div class="col logo l-3 m-6 s-12 account-and-cart center">
                         <div class="account-box">
                             <a
-                                href="../pages/account.html"
+                                href="../pages/account_signin.html"
                                 class="account-link center"
                             >
                                 <i class="fa-solid fa-user"></i>
@@ -59,12 +62,16 @@
                             </a>
                             <ul class="account-tool">
                                 <li class="account-tool__item center">
-                                    <a href="#" class="account-tool__item-link"
+                                    <a
+                                        href="../pages/account_signin.html"
+                                        class="account-tool__item-link"
                                         >Đăng Nhập</a
                                     >
                                 </li>
                                 <li class="account-tool__item center">
-                                    <a href="#" class="account-tool__item-link"
+                                    <a
+                                        href="../pages/account_signup.html"
+                                        class="account-tool__item-link"
                                         >Đăng Ký</a
                                     >
                                 </li>
@@ -110,6 +117,7 @@
                         <div data-page="trang-chu" class="navbar-item">
                             <a
                                 class="navbar-item__link"
+                                data-link="homepage"
                                 href="../../index.html"
                             >
                                 Trang chủ
@@ -118,7 +126,8 @@
                         <div data-page="gioi-thieu" class="navbar-item">
                             <a
                                 class="navbar-item__link"
-                                href="../../assets/pages/gioiThieu.html"
+                                data-link="gioiThieu"
+                                href="../pages/gioiThieu.html"
                             >
                                 Giới thiệu
                             </a>
@@ -126,6 +135,7 @@
                         <div data-page="tour-du-lich" class="navbar-item">
                             <a
                                 class="navbar-item__link"
+                                data-link="tourDuLich"
                                 href="../pages/tourDuLich.html"
                             >
                                 Tour du lịch
@@ -385,6 +395,7 @@
                         <div data-page="khuyen-mai" class="navbar-item">
                             <a
                                 class="navbar-item__link"
+                                data-link="tourKhuyenMai"
                                 href="../pages/tourKhuyenMai.html"
                             >
                                 Tour khuyến mãi
@@ -393,6 +404,7 @@
                         <div data-page="news" class="navbar-item">
                             <a
                                 class="navbar-item__link"
+                                data-link="tinTuc"
                                 href="../pages/tinTuc.html"
                             >
                                 Tin tức
@@ -401,6 +413,7 @@
                         <div data-page="faq" class="navbar-item">
                             <a
                                 class="navbar-item__link"
+                                data-link="FAQ"
                                 href="../pages/FAQ.html"
                             >
                                 FAQ
@@ -409,6 +422,7 @@
                         <div data-page="contact" class="navbar-item">
                             <a
                                 class="navbar-item__link"
+                                data-link="lienHe"
                                 href="../pages/lienHe.html"
                             >
                                 Liên hệ
@@ -418,7 +432,90 @@
                 </div>
             </div>
             <div id="content">
-                
+                <div id="content">
+                    <div class="content__current-position">
+                        <a
+                            href="../../index.html"
+                            class="content__current-position__home-page"
+                            >Trang chủ</a
+                        >
+                        <span style="margin: 0 5px">/</span>
+                        <a
+                            href="../pages/FAQ.html"
+                            class="content__current-position__current-page"
+                            >FAQ</a
+                        >
+                    </div>
+                    <div class="content__introduce-container">
+                        <h2 class="content__introduce-heading">
+                            CÁC ĐIỀU KIỆN & ĐIỀU KHOẢN
+                        </h2>
+                        <div class="content__introduce-content">
+                            <span class="content__introduce-content-title">
+                                Khi nào thì đơn hàng của tôi được chuyển đi?
+                            </span>
+                            <div class="content__introduce-content-box">
+                                <span
+                                    class="content__introduce-content-box-text"
+                                >
+                                    Với đơn hàng của Quý khách, sau 24h kể từ
+                                    khi đặt hàng (không tính ngày thứ 7, chủ
+                                    nhật và các ngày lễ), Evo Tour sẽ liên hệ để
+                                    xác nhận và gửi sản phẩm đến Quý khách
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content__introduce-content">
+                            <span class="content__introduce-content-title">
+                                Tôi có phải thanh toán thêm thuế hay phí gì
+                                không?
+                            </span>
+                            <div class="content__introduce-content-box">
+                                <span
+                                    class="content__introduce-content-box-text"
+                                >
+                                    Hiện tại mức giá của tất cả sản phẩm của Evo
+                                    Tour đều đã bao gồm thuế giá trị gia tăng.
+                                    <br />
+                                    Với những đơn hàng có giá trị trên
+                                    700,000VND, Quý khách sẽ được miễn phí vận
+                                    chuyển
+                                    <br />
+                                    Với những đơn hàng có giá trị dưới
+                                    700,000VND,Quý khách vui lòng thanh toán
+                                    thêm 30,000VND chi phí vận chuyển
+                                </span>
+                            </div>
+                        </div>
+                        <div class="content__introduce-content">
+                            <span class="content__introduce-content-title">
+                                Tôi muốn lấy hóa đơn VAT thì phải làm thế nào
+                            </span>
+                            <div class="content__introduce-content-box">
+                                <span
+                                    class="content__introduce-content-box-text"
+                                >
+                                    "Quý khách vui lòng cung cấp đầy đủ các
+                                    thông tin dưới đây cho Evo Tour khi nhận
+                                    được điện thoại xác nhận đơn hàng của bộ
+                                    phận Telesale:
+                                    <br />
+                                    1. Tên KH/Tên Đơn vị
+                                    <br />
+                                    2. Địa chỉ
+                                    <br />
+                                    3. Mã Số Thuế
+                                    <br />
+                                    4. Email nhận hóa đơn điện tử
+                                    <br />
+                                    Hóa đơn điện tử sẽ được Evo Tour gửi tới
+                                    email đăng ký của Quý khách ngay sau khi sản
+                                    phẩm được thanh toán"
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <footer id="footer">
                 <div class="footer-custom">

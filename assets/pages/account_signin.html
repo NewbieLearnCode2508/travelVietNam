@@ -20,7 +20,8 @@
         <link rel="stylesheet" href="../css/config.css" />
         <link rel="stylesheet" href="../css/style.css" />
         <link rel="stylesheet" href="../css/grid.css" />
-        <link rel="stylesheet" href="../css/gioiThieu.css" />
+        <link rel="stylesheet" href="../css/gioiThieu.css"/>
+        <link rel="stylesheet" href="../css/account.css">
         <title>Du Lịch Việt Nam</title>
     </head>
     <body>
@@ -28,10 +29,7 @@
             <div id="header">
                 <div class="row header-top">
                     <div class="col center logo l-3 m-6 s-12 full-h">
-                        <a
-                            href="../../index.html"
-                            class="center logo-link full-h"
-                        >
+                        <a href="../../index.html" class="center logo-link full-h">
                             <img
                                 src="../imgs/logo/341141452_549420797318923_4659011543583366190_n.png"
                                 alt="logo"
@@ -62,16 +60,12 @@
                             </a>
                             <ul class="account-tool">
                                 <li class="account-tool__item center">
-                                    <a
-                                        href="../pages/account_signin.html"
-                                        class="account-tool__item-link"
+                                    <a href="../pages/account_signin.html" class="account-tool__item-link"
                                         >Đăng Nhập</a
                                     >
                                 </li>
                                 <li class="account-tool__item center">
-                                    <a
-                                        href="../pages/account_signup.html"
-                                        class="account-tool__item-link"
+                                    <a href="../pages/account_signup.html" class="account-tool__item-link"
                                         >Đăng Ký</a
                                     >
                                 </li>
@@ -115,18 +109,13 @@
                 <div class="row navbar center">
                     <div class="navbar-list center">
                         <div data-page="trang-chu" class="navbar-item">
-                            <a
-                                class="navbar-item__link"
-                                data-link="homepage"
-                                href="../../index.html"
-                            >
+                            <a class="navbar-item__link" data-link="homepage" href="../../index.html">
                                 Trang chủ
                             </a>
                         </div>
                         <div data-page="gioi-thieu" class="navbar-item">
                             <a
-                                class="navbar-item__link"
-                                data-link="gioiThieu"
+                                class="navbar-item__link" data-link="gioiThieu"
                                 href="../pages/gioiThieu.html"
                             >
                                 Giới thiệu
@@ -134,8 +123,7 @@
                         </div>
                         <div data-page="tour-du-lich" class="navbar-item">
                             <a
-                                class="navbar-item__link"
-                                data-link="tourDuLich"
+                                class="navbar-item__link" data-link="tourDuLich"
                                 href="../pages/tourDuLich.html"
                             >
                                 Tour du lịch
@@ -394,8 +382,7 @@
                         </div>
                         <div data-page="khuyen-mai" class="navbar-item">
                             <a
-                                class="navbar-item__link"
-                                data-link="tourKhuyenMai"
+                                class="navbar-item__link" data-link="tourKhuyenMai"
                                 href="../pages/tourKhuyenMai.html"
                             >
                                 Tour khuyến mãi
@@ -403,8 +390,7 @@
                         </div>
                         <div data-page="news" class="navbar-item">
                             <a
-                                class="navbar-item__link"
-                                data-link="tinTuc"
+                                class="navbar-item__link" data-link="tinTuc"
                                 href="../pages/tinTuc.html"
                             >
                                 Tin tức
@@ -412,8 +398,7 @@
                         </div>
                         <div data-page="faq" class="navbar-item">
                             <a
-                                class="navbar-item__link"
-                                data-link="FAQ"
+                                class="navbar-item__link" data-link="FAQ"
                                 href="../pages/FAQ.html"
                             >
                                 FAQ
@@ -421,8 +406,7 @@
                         </div>
                         <div data-page="contact" class="navbar-item">
                             <a
-                                class="navbar-item__link"
-                                data-link="lienHe"
+                                class="navbar-item__link" data-link="lienHe"
                                 href="../pages/lienHe.html"
                             >
                                 Liên hệ
@@ -432,26 +416,22 @@
                 </div>
             </div>
             <div id="content">
-                <div class="content__current-position">
-                    <a
-                        href="../../index.html"
-                        class="content__current-position__home-page"
-                        >Trang chủ</a
-                    >
-                    <span style="margin: 0 5px">/</span>
-                    <a
-                        href="../pages/gioiThieu.html"
-                        class="content__current-position__current-page"
-                        >Giới thiệu</a
-                    >
-                </div>
-                <div class="content__introduce-container">
-                    <h2 class="content__introduce-heading">Giới thiệu</h2>
-                    <div class="content__introduce-content">
-                        <span class="content__introduce-content-title"
-                            >Nội dung đang cập nhật.</span
-                        >
-                    </div>
+                <div class="login-box">
+                    <h1 class="account-form__heading-text">Login</h1>
+                    <form class="account__form">
+                        <div class="account__form-item">
+                            <label class="account__form-label">Email</label>
+                            <input class="account__input" type="email" placeholder="exam@gmail.com" required/>
+                        </div>
+                        <div class="account__form-item">
+                            <label class="account__form-label">Password</label>
+                            <input class="account__input" type="password" placeholder="Nhập mật khấu" minlength="6" maxlength="20" required/>
+                        </div>
+                        <input class="account__submit-btn" style="--clr:#6eff3e" type="submit" value="Submit" />
+                    </form>
+                    <p class="para-2">
+                        Not have an account? <a href="account_signup.html">Sign Up Here</a>
+                    </p>
                 </div>
             </div>
             <footer id="footer">
