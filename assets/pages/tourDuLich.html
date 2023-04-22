@@ -394,15 +394,6 @@
                                 </ul>
                             </div>
                         </div>
-                        <div data-page="khuyen-mai" class="navbar-item">
-                            <a
-                                class="navbar-item__link"
-                                data-link="tourKhuyenMai"
-                                href="../pages/tourKhuyenMai.html"
-                            >
-                                Tour khuyến mãi
-                            </a>
-                        </div>
                         <div data-page="news" class="navbar-item">
                             <a
                                 class="navbar-item__link"
@@ -434,6 +425,14 @@
                 </div>
             </div>
             <div id="content">
+                <div class="alertBox">
+                    <span
+                        class="closebtn"
+                        onclick="this.parentElement.style.transform='translateX(100%)';"
+                        >&times;</span
+                    >
+                    This is an alert box.
+                </div>
                 <div class="content-slider__container">
                     <div class="content-slider"></div>
                     <button
@@ -619,5 +618,6 @@
             src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
         ></script>
         <script src="../js/main.js"></script>
+        <script src="../js/tourDuLich.js"></script>
     </body>
 </html>

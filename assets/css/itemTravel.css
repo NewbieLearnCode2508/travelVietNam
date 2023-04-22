@@ -25,6 +25,11 @@
     margin: auto;
 }
 
+.itemTravel {
+    height: fit-content;
+    position: relative;
+}
+
 .itemTravel__leftcolumn {
     float: left;
     width: 65%;
@@ -121,7 +126,7 @@
     margin: 4px 0;
     display: block;
     font-size: 18px;
-    text-decoration: underline;
+    font-weight: 700;
 }
 
 .itemTravel__leftcolumn--card--tour--item__title {

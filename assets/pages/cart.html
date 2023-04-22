@@ -21,6 +21,7 @@
         <link rel="stylesheet" href="../css/style.css" />
         <link rel="stylesheet" href="../css/grid.css" />
         <link rel="stylesheet" href="../css/gioiThieu.css" />
+        <link rel="stylesheet" href="../css/cart.css" />
         <title>Du Lịch Việt Nam</title>
     </head>
     <body>
@@ -392,15 +393,6 @@
                                 </ul>
                             </div>
                         </div>
-                        <div data-page="khuyen-mai" class="navbar-item">
-                            <a
-                                class="navbar-item__link"
-                                data-link="tourKhuyenMai"
-                                href="../pages/tourKhuyenMai.html"
-                            >
-                                Tour khuyến mãi
-                            </a>
-                        </div>
                         <div data-page="news" class="navbar-item">
                             <a
                                 class="navbar-item__link"
@@ -431,7 +423,35 @@
                     </div>
                 </div>
             </div>
-            <div id="content"></div>
+            <div id="content">
+                <div class="content__current-position">
+                    <a
+                        href="../../index.html"
+                        class="content__current-position__home-page"
+                        >Trang chủ</a
+                    >
+                    <span style="margin: 0 5px">/</span>
+                    <a
+                        href="../pages/cart.html"
+                        class="content__current-position__current-page"
+                        >Giỏ hàng</a
+                    >
+                </div>
+                <div class="cart-container">
+                    <h1 class="cart__heading-text">Giỏ hàng</h1>
+                    <div class="cart-box"></div>
+                    <div class="cart-bill">
+                        <span class="cart-bill__now"
+                            >Tạm tính:
+                            <span class="pay-money-now">4.000.000 đ</span></span
+                        >
+                        <span class="cart-bill__pay"
+                            >Thành tiền:
+                            <span class="pay-money">4.000.000 đ</span></span
+                        >
+                    </div>
+                </div>
+            </div>
             <footer id="footer">
                 <div class="footer-custom">
                     <div class="footer-lists">
@@ -602,5 +622,6 @@
             src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
         ></script>
         <script src="../js/main.js"></script>
+        <script src="../js/cartPage.js"></script>
     </body>
 </html>

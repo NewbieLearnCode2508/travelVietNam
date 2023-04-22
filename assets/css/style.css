@@ -1,3 +1,33 @@
+.alertBox {
+    padding: 20px;
+    background-color: #04aa6d;
+    color: white;
+    font-size: 1.6rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    transform: translateX(100%);
+    opacity: 0;
+    transition: all linear 0.8s;
+}
+
+.closebtn {
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 4rem;
+    padding: 14px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
 .container {
     width: 100%;
 }
@@ -61,7 +91,7 @@
 /*=============== Header =============== */
 
 #header {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -248,19 +278,19 @@
 
 .status {
     background-color: orange;
-    padding: 2px;
+    padding: 10px;
     border-radius: 100%;
     width: 16px;
     height: 16px;
     position: absolute;
-    top: 0%;
-    left: 50%;
+    top: -20%;
+    left: 80%;
     transform: translate(-50%, -50%);
     z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* Navigation */
@@ -282,6 +312,7 @@
     padding: 14px;
     position: relative;
     cursor: pointer;
+    margin: 0 24px;
 }
 
 .navbar-item__link {

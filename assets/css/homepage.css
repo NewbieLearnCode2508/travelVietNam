@@ -107,3 +107,22 @@
 .content-top__btn:hover {
     background-color: #000;
 }
+
+#closeIntrolBtn {
+    position: absolute;
+    top: 48px;
+    right: 48px;
+    font-size: 4rem;
+    color: #000;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transform: rotate(0deg);
+    transition: all cubic-bezier(.47,1.64,.41,.8) 1s;
+    padding: 12px;
+}
+
+#closeIntrolBtn:hover {
+    transform: rotate(180deg);
+}
