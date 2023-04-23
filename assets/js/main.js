@@ -8,6 +8,11 @@ let cartItems = JSON.parse(localStorage.getItem("cart-items")) || {
     items: [],
 };
 
+const validateEmail = (email) => {
+    return email.match(
+        /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+    );
+};
 
 function marginHeader() {
     //Margin top cho phần content
@@ -19,7 +24,8 @@ function marginHeader() {
 }
 
 async function load() {
-    const dataUrl = "https://64069dc5862956433e556a26.mockapi.io/v1/diaDiemDuLich";
+    const dataUrl =
+        "https://64069dc5862956433e556a26.mockapi.io/v1/diaDiemDuLich";
     const response = await fetch(dataUrl);
     const jsonData = await response.json();
 
@@ -35,7 +41,6 @@ async function load() {
         }
     };
 
-    
     document.body.scrollTop = 0;
 
     //render tourDuLich

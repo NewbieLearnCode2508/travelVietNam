@@ -25,7 +25,7 @@
         <title>Du Lịch Việt Nam</title>
     </head>
     <body>
-        <div class="container">
+        <div class="web-container">
             <div id="header">
                 <div class="row header-top">
                     <div class="col center logo l-3 m-6 s-12 full-h">
@@ -432,7 +432,7 @@
                                 >First Name</label
                             >
                             <input
-                                class="account__input"
+                                class="account__input regis-first-name"
                                 type="text"
                                 placeholder="VD: A"
                                 required
@@ -441,7 +441,7 @@
                         <div class="account__form-item">
                             <label class="account__form-label">Last Name</label>
                             <input
-                                class="account__input"
+                                class="account__input regis-last-name"
                                 type="text"
                                 placeholder="VD: Nguyễn Văn"
                                 required
@@ -450,7 +450,7 @@
                         <div class="account__form-item">
                             <label class="account__form-label">Email</label>
                             <input
-                                class="account__input"
+                                class="account__input regis-email"
                                 type="email"
                                 placeholder="exam@gmail.com"
                                 required
@@ -459,7 +459,7 @@
                         <div class="account__form-item">
                             <label class="account__form-label">Password</label>
                             <input
-                                class="account__input"
+                                class="account__input regis-password"
                                 type="password"
                                 minlength="6"
                                 maxlength="20"
@@ -472,7 +472,7 @@
                                 >Confirm Password</label
                             >
                             <input
-                                class="account__input"
+                                class="account__input regis-repassword"
                                 type="password"
                                 minlength="6"
                                 maxlength="20"
@@ -481,17 +481,18 @@
                             />
                         </div>
                         <input
+                            data-type="register"
                             class="account__submit-btn"
                             style="--clr: #6eff3e"
                             type="submit"
                             value="Submit"
                         />
                     </form>
+                    <p class="para-2">
+                        Already have an account?
+                        <a href="./account_signin.html">Login here</a>
+                    </p>
                 </div>
-                <p class="para-2">
-                    Already have an account?
-                    <a href="account_login.html">Login here</a>
-                </p>
             </div>
             <footer id="footer">
                 <div class="footer-custom">
@@ -663,5 +664,6 @@
             src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
         ></script>
         <script src="../js/main.js"></script>
+        <script src="../js/account.js"></script>
     </body>
 </html>

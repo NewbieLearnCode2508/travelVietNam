@@ -16,15 +16,21 @@
             type="text/css"
             href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
         <link rel="stylesheet" href="./assets/css/reset.css" />
         <link rel="stylesheet" href="./assets/css/config.css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
         <link rel="stylesheet" href="./assets/css/grid.css" />
-        <link rel="stylesheet" href="./assets/css/homepage.css">
+        <link rel="stylesheet" href="./assets/css/homepage.css" />
         <title>Du Lịch Việt Nam</title>
     </head>
     <body>
-        <div class="container">
+        <div class="web-container">
             <div id="header">
                 <div class="row header-top">
                     <div class="col center logo l-3 m-6 s-12 full-h">
@@ -59,12 +65,16 @@
                             </a>
                             <ul class="account-tool">
                                 <li class="account-tool__item center">
-                                    <a href="./assets/pages/account_signin.html" class="account-tool__item-link"
+                                    <a
+                                        href="./assets/pages/account_signin.html"
+                                        class="account-tool__item-link"
                                         >Đăng Nhập</a
                                     >
                                 </li>
                                 <li class="account-tool__item center">
-                                    <a href="./assets/pages/account_signup.html" class="account-tool__item-link"
+                                    <a
+                                        href="./assets/pages/account_signup.html"
+                                        class="account-tool__item-link"
                                         >Đăng Ký</a
                                     >
                                 </li>
@@ -108,13 +118,18 @@
                 <div class="row navbar center">
                     <div class="navbar-list center">
                         <div data-page="trang-chu" class="navbar-item">
-                            <a class="navbar-item__link" data-link="homepage" href="./index.html">
+                            <a
+                                class="navbar-item__link"
+                                data-link="homepage"
+                                href="./index.html"
+                            >
                                 Trang chủ
                             </a>
                         </div>
                         <div data-page="gioi-thieu" class="navbar-item">
                             <a
-                                class="navbar-item__link" data-link="gioiThieu"
+                                class="navbar-item__link"
+                                data-link="gioiThieu"
                                 href="./assets/pages/gioiThieu.html"
                             >
                                 Giới thiệu
@@ -122,7 +137,8 @@
                         </div>
                         <div data-page="tour-du-lich" class="navbar-item">
                             <a
-                                class="navbar-item__link" data-link="tourDuLich"
+                                class="navbar-item__link"
+                                data-link="tourDuLich"
                                 href="./assets/pages/tourDuLich.html"
                             >
                                 Tour du lịch
@@ -134,7 +150,7 @@
                                         <a
                                             href="#"
                                             class="navbar-item__sublist-item-link"
-                                            >Tour trong nước</a
+                                            >Tour miền bắc</a
                                         >
                                         <ul
                                             class="navbar-item__sublist-item__list"
@@ -146,7 +162,7 @@
                                                     href="#"
                                                     class="navbar-item__sublist-item__link"
                                                 >
-                                                    Nha Trang
+                                                    Hà nội
                                                 </a>
                                             </li>
                                             <li
@@ -156,7 +172,48 @@
                                                     href="#"
                                                     class="navbar-item__sublist-item__link"
                                                 >
-                                                    Phú Quốc
+                                                    Hà Giang
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="navbar-item__sublist-item__item"
+                                            >
+                                                <a
+                                                    href="#"
+                                                    class="navbar-item__sublist-item__link"
+                                                >
+                                                    Quảng Ninh
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="navbar-item__sublist-item">
+                                        <a
+                                            href="#"
+                                            class="navbar-item__sublist-item-link"
+                                            >Tour miền Trung</a
+                                        >
+                                        <ul
+                                            class="navbar-item__sublist-item__list"
+                                        >
+                                            <li
+                                                class="navbar-item__sublist-item__item"
+                                            >
+                                                <a
+                                                    href="#"
+                                                    class="navbar-item__sublist-item__link"
+                                                >
+                                                    Nghệ An
+                                                </a>
+                                            </li>
+                                            <li
+                                                class="navbar-item__sublist-item__item"
+                                            >
+                                                <a
+                                                    href="#"
+                                                    class="navbar-item__sublist-item__link"
+                                                >
+                                                    Quảng Ngãi
                                                 </a>
                                             </li>
                                             <li
@@ -175,7 +232,7 @@
                                         <a
                                             href="#"
                                             class="navbar-item__sublist-item-link"
-                                            >Tour trong nước</a
+                                            >Tour miền Nam</a
                                         >
                                         <ul
                                             class="navbar-item__sublist-item__list"
@@ -187,7 +244,7 @@
                                                     href="#"
                                                     class="navbar-item__sublist-item__link"
                                                 >
-                                                    Nha Trang
+                                                    Bình Dương
                                                 </a>
                                             </li>
                                             <li
@@ -197,7 +254,7 @@
                                                     href="#"
                                                     class="navbar-item__sublist-item__link"
                                                 >
-                                                    Phú Quốc
+                                                    Vũng Tàu
                                                 </a>
                                             </li>
                                             <li
@@ -207,171 +264,7 @@
                                                     href="#"
                                                     class="navbar-item__sublist-item__link"
                                                 >
-                                                    Đà Nẵng
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="navbar-item__sublist-item">
-                                        <a
-                                            href="#"
-                                            class="navbar-item__sublist-item-link"
-                                            >Tour trong nước</a
-                                        >
-                                        <ul
-                                            class="navbar-item__sublist-item__list"
-                                        >
-                                            <li
-                                                class="navbar-item__sublist-item__item"
-                                            >
-                                                <a
-                                                    href="#"
-                                                    class="navbar-item__sublist-item__link"
-                                                >
-                                                    Nha Trang
-                                                </a>
-                                            </li>
-                                            <li
-                                                class="navbar-item__sublist-item__item"
-                                            >
-                                                <a
-                                                    href="#"
-                                                    class="navbar-item__sublist-item__link"
-                                                >
-                                                    Phú Quốc
-                                                </a>
-                                            </li>
-                                            <li
-                                                class="navbar-item__sublist-item__item"
-                                            >
-                                                <a
-                                                    href="#"
-                                                    class="navbar-item__sublist-item__link"
-                                                >
-                                                    Đà Nẵng
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="navbar-item__sublist-item">
-                                        <a
-                                            href="#"
-                                            class="navbar-item__sublist-item-link"
-                                            >Tour trong nước</a
-                                        >
-                                        <ul
-                                            class="navbar-item__sublist-item__list"
-                                        >
-                                            <li
-                                                class="navbar-item__sublist-item__item"
-                                            >
-                                                <a
-                                                    href="#"
-                                                    class="navbar-item__sublist-item__link"
-                                                >
-                                                    Nha Trang
-                                                </a>
-                                            </li>
-                                            <li
-                                                class="navbar-item__sublist-item__item"
-                                            >
-                                                <a
-                                                    href="#"
-                                                    class="navbar-item__sublist-item__link"
-                                                >
-                                                    Phú Quốc
-                                                </a>
-                                            </li>
-                                            <li
-                                                class="navbar-item__sublist-item__item"
-                                            >
-                                                <a
-                                                    href="#"
-                                                    class="navbar-item__sublist-item__link"
-                                                >
-                                                    Đà Nẵng
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="navbar-item__sublist-item">
-                                        <a
-                                            href="#"
-                                            class="navbar-item__sublist-item-link"
-                                            >Tour trong nước</a
-                                        >
-                                        <ul
-                                            class="navbar-item__sublist-item__list"
-                                        >
-                                            <li
-                                                class="navbar-item__sublist-item__item"
-                                            >
-                                                <a
-                                                    href="#"
-                                                    class="navbar-item__sublist-item__link"
-                                                >
-                                                    Nha Trang
-                                                </a>
-                                            </li>
-                                            <li
-                                                class="navbar-item__sublist-item__item"
-                                            >
-                                                <a
-                                                    href="#"
-                                                    class="navbar-item__sublist-item__link"
-                                                >
-                                                    Phú Quốc
-                                                </a>
-                                            </li>
-                                            <li
-                                                class="navbar-item__sublist-item__item"
-                                            >
-                                                <a
-                                                    href="#"
-                                                    class="navbar-item__sublist-item__link"
-                                                >
-                                                    Đà Nẵng
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li class="navbar-item__sublist-item">
-                                        <a
-                                            href="#"
-                                            class="navbar-item__sublist-item-link"
-                                            >Tour trong nước</a
-                                        >
-                                        <ul
-                                            class="navbar-item__sublist-item__list"
-                                        >
-                                            <li
-                                                class="navbar-item__sublist-item__item"
-                                            >
-                                                <a
-                                                    href="#"
-                                                    class="navbar-item__sublist-item__link"
-                                                >
-                                                    Nha Trang
-                                                </a>
-                                            </li>
-                                            <li
-                                                class="navbar-item__sublist-item__item"
-                                            >
-                                                <a
-                                                    href="#"
-                                                    class="navbar-item__sublist-item__link"
-                                                >
-                                                    Phú Quốc
-                                                </a>
-                                            </li>
-                                            <li
-                                                class="navbar-item__sublist-item__item"
-                                            >
-                                                <a
-                                                    href="#"
-                                                    class="navbar-item__sublist-item__link"
-                                                >
-                                                    Đà Nẵng
+                                                    Tây Ninh
                                                 </a>
                                             </li>
                                         </ul>
@@ -381,7 +274,8 @@
                         </div>
                         <div data-page="news" class="navbar-item">
                             <a
-                                class="navbar-item__link" data-link="tinTuc"
+                                class="navbar-item__link"
+                                data-link="tinTuc"
                                 href="./assets/pages/tinTuc.html"
                             >
                                 Tin tức
@@ -389,7 +283,8 @@
                         </div>
                         <div data-page="faq" class="navbar-item">
                             <a
-                                class="navbar-item__link" data-link="FAQ"
+                                class="navbar-item__link"
+                                data-link="FAQ"
                                 href="./assets/pages/FAQ.html"
                             >
                                 FAQ
@@ -397,7 +292,8 @@
                         </div>
                         <div data-page="contact" class="navbar-item">
                             <a
-                                class="navbar-item__link" data-link="lienHe"
+                                class="navbar-item__link"
+                                data-link="lienHe"
                                 href="./assets/pages/lienHe.html"
                             >
                                 Liên hệ
@@ -412,19 +308,38 @@
                         <h3>#Welcome To</h3>
                     </div>
                     <div class="content-top__title">
-                        <h1>Du lịch </br> Việt Nam</h1>
+                        <h1>
+                            Du lịch <br />
+                            Việt Nam
+                        </h1>
                     </div>
-                    <div class="content-top__decs">Luôn bên bạn trên mỗi nẻo đường Việt Nam</div>
+                    <div class="content-top__decs">
+                        Luôn bên bạn trên mỗi nẻo đường Việt Nam
+                    </div>
                     <div class="content-top__btn-container">
                         <span class="content-top__btn">Trải Nghiệm</span>
-                        <span class="content-top__btn--transparent" id="showIntrolBtn">Xem video giới thiệu</span>
+                        <span
+                            class="content-top__btn--transparent"
+                            id="showIntrolBtn"
+                            >Xem video giới thiệu</span
+                        >
                     </div>
                 </div>
                 <div class="video-introl">
                     <div class="bg-blur"></div>
-                    <button id="closeIntrolBtn"><i class="fa-solid fa-xmark"></i></button>
+                    <button id="closeIntrolBtn">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
                     <div class="video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Au6LqK1UH8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/Au6LqK1UH8g"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen
+                        ></iframe>
                     </div>
                 </div>
             </div>
@@ -451,9 +366,10 @@
                                 </li>
                                 <li>
                                     <iframe
-                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0672268165654!2d106.6264673140711!3d10.806163161600724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBUaOG7sWMgcGjhuqltIFRQLkhDTQ!5e0!3m2!1svi!2s!4v1680999373482!5m2!1svi!2s"
+                                        class="map"
                                         width="600"
                                         height="250"
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0672268165654!2d106.6264673140711!3d10.806163161600724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBUaOG7sWMgcGjhuqltIFRQLkhDTQ!5e0!3m2!1svi!2s!4v1680999373482!5m2!1svi!2s"
                                         style="border: 0; display: block"
                                         allowfullscreen=""
                                         loading="lazy"
@@ -596,6 +512,21 @@
         <script
             type="text/javascript"
             src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+        <script
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"
+        ></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"
         ></script>
         <script src="./assets/js/main.js"></script>
         <script src="./assets/js/homepage.js"></script>

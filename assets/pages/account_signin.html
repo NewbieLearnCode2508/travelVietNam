@@ -25,7 +25,7 @@
         <title>Du Lịch Việt Nam</title>
     </head>
     <body>
-        <div class="container">
+        <div class="web-container">
             <div id="header">
                 <div class="row header-top">
                     <div class="col center logo l-3 m-6 s-12 full-h">
@@ -435,7 +435,7 @@
                             <label class="account__form-label">Password</label>
                             <input class="account__input" type="password" placeholder="Nhập mật khấu" minlength="6" maxlength="20" required/>
                         </div>
-                        <input class="account__submit-btn" style="--clr:#6eff3e" type="submit" value="Submit" />
+                        <input data-type="login" class="account__submit-btn" style="--clr:#6eff3e" type="submit" value="Submit" />
                     </form>
                     <p class="para-2">
                         Not have an account? <a href="account_signup.html">Sign Up Here</a>
@@ -612,5 +612,6 @@
             src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
         ></script>
         <script src="../js/main.js"></script>
+        <script src="../js/account.js"></script>
     </body>
 </html>

@@ -28,7 +28,7 @@
     color: black;
 }
 
-.container {
+.web-container {
     width: 100%;
 }
 
@@ -361,6 +361,7 @@
     padding: 14px 16px;
     font-size: 1.4rem;
     word-wrap: unset;
+    width: 20%;
 }
 
 .navbar-item__sublist-item__list {
