@@ -15,9 +15,13 @@ function showAlert() {
     alertBox.style.transform = "translateX(0%)";
     alertBox.style.opacity = "1";
     setTimeout(() => {
-        alertBox.style.transform = "translateX(100%)";
-        alertBox.style.opacity = "0";
+        closeAlert(alertBox);
     }, 2500);
+}
+
+function closeAlert(alertBox) {
+    alertBox.style.transform = "translateX(100%)";
+    alertBox.style.opacity = "0";
 }
 
 function handleTourDuLich() {
@@ -76,12 +80,12 @@ function handleItemTravel(idx) {
     //Show thông tin travel ra
     content.innerHTML = `
     <div class="alertBox">
+        Đã đặt tour thành công !
         <span
             class="closebtn"
             onclick="this.parentElement.style.transform='translateX(100%)';"
             >&times;</span
         >
-        This is an alert box.
     </div>
     <div class="content__current-position">
         <a
@@ -232,6 +236,7 @@ function handleItemTravel(idx) {
         </div>
     </div>
     `;
+    document.body.scrollIntoView({ behavior: "smooth", block: "start" });
     let datVe = document.querySelector(".order-btn");
     datVe.addEventListener("click", function (e) {
         let orderTravel = array[Number(e.target.dataset.item)];

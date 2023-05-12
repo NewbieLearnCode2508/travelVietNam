@@ -22,10 +22,134 @@
         <link rel="stylesheet" href="../css/grid.css" />
         <link rel="stylesheet" href="../css/gioiThieu.css" />
         <link rel="stylesheet" href="../css/account.css" />
+        <link rel="stylesheet" href="../css/responsive.css" />
         <title>Du Lịch Việt Nam</title>
     </head>
     <body>
         <div class="web-container">
+            <header id="header-mobile">
+                <nav class="nav-bar">
+                    <a href="../../index.html" class="center logo-link full-h">
+                        <img
+                            src="../imgs/logo/341141452_549420797318923_4659011543583366190_n.png"
+                            alt="logo"
+                            class="logo-img full-h"
+                        />
+                    </a>
+
+                    <ul class="nav-menu">
+                        <div data-page="trang-chu" class="navbar-item">
+                            <a
+                                class="nav-link"
+                                data-link="homepage"
+                                href="../../index.html"
+                            >
+                                Trang chủ
+                            </a>
+                        </div>
+                        <div data-page="gioi-thieu" class="navbar-item">
+                            <a
+                                class="nav-link"
+                                data-link="gioiThieu"
+                                href="../pages/gioiThieu.html"
+                            >
+                                Giới thiệu
+                            </a>
+                        </div>
+                        <div data-page="tour-du-lich" class="navbar-item">
+                            <a
+                                class="nav-link"
+                                data-link="tourDuLich"
+                                href="../pages/tourDuLich.html"
+                            >
+                                Tour du lịch
+                            </a>
+                        </div>
+                        <div data-page="news" class="navbar-item">
+                            <a
+                                class="nav-link"
+                                data-link="tinTuc"
+                                href="../pages/tinTuc.html"
+                            >
+                                Tin tức
+                            </a>
+                        </div>
+                        <div data-page="faq" class="navbar-item">
+                            <a
+                                class="nav-link"
+                                data-link="FAQ"
+                                href="../pages/FAQ.html"
+                            >
+                                FAQ
+                            </a>
+                        </div>
+                        <div data-page="contact" class="navbar-item">
+                            <a
+                                class="nav-link"
+                                data-link="lienHe"
+                                href="../pages/lienHe.html"
+                            >
+                                Liên hệ
+                            </a>
+                        </div>
+                    </ul>
+                    <div class="account-box">
+                        <a href="#" class="account-link center">
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                        <ul class="account-tool">
+                            <li class="account-tool__item center">
+                                <a
+                                    href="../pages/account_signin.html"
+                                    class="account-tool__item-link"
+                                    >Đăng Nhập</a
+                                >
+                            </li>
+                            <li class="account-tool__item center">
+                                <a
+                                    href="../pages/account_signup.html"
+                                    class="account-tool__item-link"
+                                    >Đăng Ký</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="favorite-box">
+                        <i class="fa-solid fa-heart fa-beat"
+                            ><span class="status">0</span></i
+                        >
+                        <div class="favorite-info">
+                            <span class="favorite-infor__title">
+                                Những tour yêu thích (<span
+                                    class="favorite-info__status"
+                                    >0</span
+                                >)
+                            </span>
+                            <div class="favorite-list">
+                                <i
+                                    class="fa-solid fa-heart favorite-info__no-cart-icon fa-beat"
+                                ></i>
+                                <span class="favorite-info__no-cart-title"
+                                    >Hiện chưa có tour yêu thích hãy thêm ngay
+                                    nhé!</span
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-box">
+                        <a href="../pages/cart.html" class="cart-link center">
+                            <i class="fa-solid fa-cart-shopping fa-bounce">
+                                <span class="status">0</span>
+                            </i>
+                        </a>
+                    </div>
+                    <div class="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </header>
             <div id="header">
                 <div class="row header-top">
                     <div class="col center logo l-3 m-6 s-12 full-h">
@@ -140,8 +264,8 @@
                                 href="../pages/tourDuLich.html"
                             >
                                 Tour du lịch
+                                <i class="fa-solid fa-angle-down"></i>
                             </a>
-                            <i class="fa-solid fa-angle-down"></i>
                             <div class="navbar-item__sublist-box">
                                 <ul class="navbar-item__sublist">
                                     <li class="navbar-item__sublist-item">
@@ -395,8 +519,6 @@
                                 <li>
                                     <iframe
                                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.0672268165654!2d106.6264673140711!3d10.806163161600724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752be27d8b4f4d%3A0x92dcba2950430867!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2hp4buHcCBUaOG7sWMgcGjhuqltIFRQLkhDTQ!5e0!3m2!1svi!2s!4v1680999373482!5m2!1svi!2s"
-                                        width="600"
-                                        height="250"
                                         style="border: 0; display: block"
                                         allowfullscreen=""
                                         loading="lazy"

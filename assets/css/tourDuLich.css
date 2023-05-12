@@ -186,3 +186,30 @@
     visibility: visible;
     opacity: 1;
 }
+
+/* Responsive */
+@media (max-width: 740px) {
+    .center-mobile {
+        margin: auto;
+    }
+    .content-slider__item-img,
+    .content-slider__item {
+        max-height: 260px;
+        min-height: 260px;
+    }
+
+    .content-slider__prev-btn,
+    .content-slider__next-btn {
+        font-size: 3rem;
+    }
+
+    .slick-dots button {
+        padding: 7px;
+    }
+
+    .tour-item {
+        max-width: 80vw;
+        width: 80vw;
+        margin-top: 16px;
+    }
+}

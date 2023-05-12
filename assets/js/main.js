@@ -15,12 +15,22 @@ const validateEmail = (email) => {
 };
 
 function marginHeader() {
-    //Margin top cho phần content
-    if (sublist.clientHeight > window.innerHeight - header.clientHeight) {
-        sublist.style.overflow = "scroll";
+    if (window.innerWidth >= 1024) {
+        //Margin top cho phần content
+        if (sublist.clientHeight > window.innerHeight - header.clientHeight) {
+            sublist.style.overflow = "scroll";
+        }
+        sublist.style.maxHeight = `calc((100vh) - ${header.clientHeight}px)`;
+        content.style.marginTop = `${header.clientHeight}px`;
+    } else {
+        //Margin top cho phần content
+        let headerMobile = document.getElementById("header-mobile");
+        if (sublist.clientHeight > window.innerHeight - headerMobile.clientHeight) {
+            sublist.style.overflow = "scroll";
+        }
+        sublist.style.maxHeight = `calc((100vh) - ${headerMobile.clientHeight}px)`;
+        content.style.marginTop = `${headerMobile.clientHeight}px`;
     }
-    sublist.style.maxHeight = `calc((100vh) - ${header.clientHeight}px)`;
-    content.style.marginTop = `${header.clientHeight}px`;
 }
 
 async function load() {
@@ -52,7 +62,8 @@ async function load() {
             let month = date[1];
             let year = date[0];
             if (element.giaCu != 0) {
-                innerHtmlMainContent += `<div class="col l-3 m-6 s-12">
+                innerHtmlMainContent += `
+                <div class="col l-3 m-6 s-12 center-mobile tour-item">
                     <div class="widget">
                         <div style="background: url(${element.imgsTour[0]})
                         no-repeat center/cover;" class="widget__photo"></div>
@@ -100,10 +111,36 @@ async function load() {
             }
         });
         contentMain.innerHTML = innerHtmlMainContent;
+
+        // close mobile menu
+        document.querySelectorAll(".nav-link").forEach((n) =>
+            n.addEventListener("click", () => {
+                hamburger.classList.remove("active");
+                navMenu.classList.remove("active");
+                //   Need to add Toggle aria-expanded value here as well because it stays as true when you click a menu item
+            })
+        );
     }
+
     if (contentMain) {
         loadDataMainContent();
     }
+
+    //Responsive header
+    const hamburger = document.querySelector("#header-mobile .hamburger");
+    const navMenu = document.querySelector("#header-mobile .nav-menu");
+
+    hamburger.addEventListener("click", () => {
+        /* Toggle active class */
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+
+        /* Toggle aria-expanded value */
+        let menuOpen = navMenu.classList.contains("active");
+        console.log(menuOpen);
+        let newMenuOpenStatus = menuOpen;
+        hamburger.setAttribute("aria-expanded", newMenuOpenStatus);
+    });
 }
 
 load();

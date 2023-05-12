@@ -9,10 +9,10 @@
 
 .account__form {
     width: 100%;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    flex-direction:column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .account__form-item {
@@ -23,6 +23,7 @@
 .signup-box,
 .login-box {
     width: 500px;
+    max-width: 100vw;
     background-color: #8ccae9;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, 0.5);
@@ -109,4 +110,11 @@ p {
 
 .para-2 a {
     color: #e0ff66;
+}
+
+@media (max-width: 740px) {
+    .signup-box,
+    .login-box {
+        max-width: 90vw;
+    }
 }

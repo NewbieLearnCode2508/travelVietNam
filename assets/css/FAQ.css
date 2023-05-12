@@ -45,6 +45,9 @@
     padding-left: 10px;
     margin-bottom: 16px;
     font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content__introduce-content-box {
@@ -52,4 +55,11 @@
     background-color: #ffffff;
     font-size: 1.5rem;
     margin-top: 16px;
+}
+
+/* Responsive */
+@media (max-width: 1023px) {
+    .content__introduce-container {
+        padding: 24px;
+    }
 }

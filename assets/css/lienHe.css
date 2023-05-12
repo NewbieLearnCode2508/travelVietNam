@@ -21,10 +21,7 @@ html {
     border: 2px solid rgba(255, 255, 255, 0.5);
     border-radius: 20px;
     backdrop-filter: blur(20px);
-    padding-left: 35px;
-    padding-right: 35px;
-    padding-top: 35px;
-    padding-bottom: 50px;
+    padding: 35px 35px 50px;
     width: 450px;
     float: left;
     left: 50%;
@@ -108,5 +105,13 @@ textarea:focus {
         margin-left: 0;
         padding-left: 3%;
         padding-right: 3%;
+    }
+}
+
+/* Responsive */
+@media (max-width: 740px) {
+    #contact__div {
+        padding: 24px 16px;
+        max-width: 90vw;
     }
 }

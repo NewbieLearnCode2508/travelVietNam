@@ -33,12 +33,13 @@
 .itemTravel__leftcolumn {
     float: left;
     width: 65%;
+    max-width: 65%;
     background-size: 140%;
 }
 
 .itemTravel__rightcolumn {
     float: left;
-    width: 35%;
+    max-width: 35%;
     padding-left: 5px;
 }
 
@@ -288,4 +289,27 @@
 
 .order-form__submit:hover {
     opacity: 0.8;
+}
+
+@media (max-width: 740px)
+{
+    .itemTravel {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .itemTravel > * {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .alertBox {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
 }
