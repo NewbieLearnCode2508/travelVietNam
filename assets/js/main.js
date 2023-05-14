@@ -1,20 +1,29 @@
+//Định nghĩa các biến của chương trình
 let header = document.getElementById("header");
 let content = document.getElementById("content");
 let sublist = document.querySelector(".navbar-item__sublist");
-let cartAmount = document.querySelector(".cart-box .status");
+let cartAmount = document.querySelectorAll(".cart-box .status");
 const contentMain = document.querySelector(".content-main .row");
+
+//Danh sách đã đặt lấy từ local storage
 let cartItems = JSON.parse(localStorage.getItem("cart-items")) || {
     amount: 0,
     items: [],
 };
 
+//Kiểm tra giá trị nhập vào có phải email hay không
 const validateEmail = (email) => {
     return email.match(
         /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
     );
 };
 
+//Margin cho thằng header
 function marginHeader() {
+    /* 
+        Kiểm tra nếu màn hình lớn hơn hoặc bằng 1024px thì sẽ margin cho thằng header 
+        nếu nhỏ hơn thì cho thằng header mobile
+    */
     if (window.innerWidth >= 1024) {
         //Margin top cho phần content
         if (sublist.clientHeight > window.innerHeight - header.clientHeight) {
@@ -25,7 +34,10 @@ function marginHeader() {
     } else {
         //Margin top cho phần content
         let headerMobile = document.getElementById("header-mobile");
-        if (sublist.clientHeight > window.innerHeight - headerMobile.clientHeight) {
+        if (
+            sublist.clientHeight >
+            window.innerHeight - headerMobile.clientHeight
+        ) {
             sublist.style.overflow = "scroll";
         }
         sublist.style.maxHeight = `calc((100vh) - ${headerMobile.clientHeight}px)`;
@@ -34,15 +46,23 @@ function marginHeader() {
 }
 
 async function load() {
+    //Định nghĩa biết chứa thông tin link database từ server
     const dataUrl =
         "https://64069dc5862956433e556a26.mockapi.io/v1/diaDiemDuLich";
+    //Lấy dữ liệu từ server
     const response = await fetch(dataUrl);
+    //Chuyển từ json sang object
     const jsonData = await response.json();
 
-    cartAmount.innerHTML = cartItems.amount || 0;
+    //Set số lượng hàng trong cart cho thằng status
+    cartAmount.forEach((e) => {
+        e.innerHTML = cartItems.amount || 0;
+    });
 
+    //Margin thằng body bằng với thằng header
     marginHeader();
 
+    //Khi lăn chuột lớn hơn so với header thì sẽ cho thằng header dính lên màn hình
     window.onscroll = function () {
         if (window.scrollY > header.clientHeight) {
             header.style.position = "fixed";
@@ -51,17 +71,21 @@ async function load() {
         }
     };
 
+    //Khi vừa load thì sẽ nhảy lên trên đầu
     document.body.scrollTop = 0;
 
     //render tourDuLich
     async function loadDataMainContent() {
         let innerHtmlMainContent = "";
+        //Lặp qua từng từng trong database
         jsonData.forEach((element, index) => {
+            //Tách dữ liệu ngày tháng năm
             let date = element.ngayXuatPhat.split("-");
             let day = date[2];
             let month = date[1];
             let year = date[0];
             if (element.giaCu != 0) {
+                //Ghép dữ liệu và html lại với nhau
                 innerHtmlMainContent += `
                 <div class="col l-3 m-6 s-12 center-mobile tour-item">
                     <div class="widget">
@@ -110,6 +134,7 @@ async function load() {
                 </div>`;
             }
         });
+        //Render dữ liệu html khi nãy vừa có được
         contentMain.innerHTML = innerHtmlMainContent;
 
         // close mobile menu
@@ -117,11 +142,11 @@ async function load() {
             n.addEventListener("click", () => {
                 hamburger.classList.remove("active");
                 navMenu.classList.remove("active");
-                //   Need to add Toggle aria-expanded value here as well because it stays as true when you click a menu item
             })
         );
     }
 
+    //Load dữ liệu của thằng tour du lịch
     if (contentMain) {
         loadDataMainContent();
     }
@@ -135,12 +160,19 @@ async function load() {
         hamburger.classList.toggle("active");
         navMenu.classList.toggle("active");
 
-        /* Toggle aria-expanded value */
+        /* Toggle thay đổi giá trị menu có mở hoặc không mở */
         let menuOpen = navMenu.classList.contains("active");
-        console.log(menuOpen);
         let newMenuOpenStatus = menuOpen;
         hamburger.setAttribute("aria-expanded", newMenuOpenStatus);
     });
+
+    //Khi kích thước cửa sổ thay đổi thì thay đổi margin của thằng header
+    window.onresize = () => {
+        marginHeader();
+    };
 }
 
-load();
+//Khi cửa sổ được load thì chạy chương trình
+window.onload = () => {
+    load();
+};

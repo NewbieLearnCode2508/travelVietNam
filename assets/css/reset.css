@@ -34,4 +34,5 @@ a {
 
 ul,li,ol {
     list-style: none;
+    padding: 0;
 }
