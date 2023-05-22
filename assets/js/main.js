@@ -45,7 +45,15 @@ function marginHeader() {
     }
 }
 
+function updateStatusCart() {
+    //Set số lượng hàng trong cart cho thằng status
+    cartAmount.forEach((e) => {
+        e.innerHTML = cartItems.amount || 0;
+    });
+}
+
 async function load() {
+    let searchInput = document.querySelector(".search-input");
     //Định nghĩa biết chứa thông tin link database từ server
     const dataUrl =
         "https://64069dc5862956433e556a26.mockapi.io/v1/diaDiemDuLich";
@@ -54,10 +62,7 @@ async function load() {
     //Chuyển từ json sang object
     const jsonData = await response.json();
 
-    //Set số lượng hàng trong cart cho thằng status
-    cartAmount.forEach((e) => {
-        e.innerHTML = cartItems.amount || 0;
-    });
+    updateStatusCart();
 
     //Margin thằng body bằng với thằng header
     marginHeader();
@@ -75,18 +80,19 @@ async function load() {
     document.body.scrollTop = 0;
 
     //render tourDuLich
-    async function loadDataMainContent() {
+    async function loadDataMainContent(dataMain) {
         let innerHtmlMainContent = "";
-        //Lặp qua từng từng trong database
-        jsonData.forEach((element, index) => {
-            //Tách dữ liệu ngày tháng năm
-            let date = element.ngayXuatPhat.split("-");
-            let day = date[2];
-            let month = date[1];
-            let year = date[0];
-            if (element.giaCu != 0) {
-                //Ghép dữ liệu và html lại với nhau
-                innerHtmlMainContent += `
+        if (dataMain.length != 0) {
+            //Lặp qua từng từng trong database
+            dataMain.forEach((element, index) => {
+                //Tách dữ liệu ngày tháng năm
+                let date = element.ngayXuatPhat.split("-");
+                let day = date[2];
+                let month = date[1];
+                let year = date[0];
+                if (element.giaCu != 0) {
+                    //Ghép dữ liệu và html lại với nhau
+                    innerHtmlMainContent += `
                 <div class="col l-3 m-6 s-12 center-mobile tour-item">
                     <div class="widget">
                         <div style="background: url(${element.imgsTour[0]})
@@ -96,9 +102,8 @@ async function load() {
                             <div class="widget__name">
                                 ${element.diaDiem}
                             </div>
-                            <div class="widget__vehicle">${
-                                element.phuongTien
-                            }</div>
+                            <div class="widget__vehicle">${element.phuongTien
+                        }</div>
                             <div class="widget__info">
                                 <div class="center">
                                     <span> khởi hành lúc: </span>
@@ -121,19 +126,23 @@ async function load() {
                                     <span
                                         class="widget__info-price--old"
                                     >
-                                        ${
-                                            element.giaCu != 0
-                                                ? element.giaCu
-                                                : ""
-                                        } vnđ
+                                        ${element.giaCu != 0
+                            ? element.giaCu
+                            : ""
+                        } vnđ
                                     </span>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>`;
-            }
-        });
+                }
+            });
+        }else {
+            innerHtmlMainContent += `
+                <h1 class="not-found-item">Không tìm thấy dữ liệu</h1>
+            `
+        }
         //Render dữ liệu html khi nãy vừa có được
         contentMain.innerHTML = innerHtmlMainContent;
 
@@ -148,7 +157,7 @@ async function load() {
 
     //Load dữ liệu của thằng tour du lịch
     if (contentMain) {
-        loadDataMainContent();
+        loadDataMainContent(jsonData);
     }
 
     //Responsive header
@@ -170,6 +179,31 @@ async function load() {
     window.onresize = () => {
         marginHeader();
     };
+
+
+    //Xử lý tìm kiếm
+    let searchBtn = document.querySelector(".search-btn");
+    let foundArray = []
+
+    searchInput.oninput = (e) => {
+        foundArray = [];
+        jsonData.forEach((item) => {
+            if (item.diaDiem.search(e.target.value) != -1 && searchInput.value != "") {
+                foundArray.push(item);
+            }
+        })
+    }
+
+    searchInput.onkeypress = (e) => {
+        if (e.keyCode === 13) {
+            e.preventDefault();
+            loadDataMainContent(foundArray);
+        }
+    }
+
+    searchBtn.onclick = () => {
+        loadDataMainContent(foundArray);
+    }
 }
 
 //Khi cửa sổ được load thì chạy chương trình

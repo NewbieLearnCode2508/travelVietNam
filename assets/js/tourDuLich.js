@@ -79,7 +79,7 @@ function handleItemTravel(idx) {
 
     //Show thông tin travel ra
     content.innerHTML = `
-    <div class="alertBox">
+    <div style="margin-top:${(header.clientHeight / 2)}px;" class="alertBox">
         Đã đặt tour thành công !
         <span
             class="closebtn"
@@ -119,7 +119,7 @@ function handleItemTravel(idx) {
                 <h2>CHƯƠNG TRÌNH TOUR</h2>
                 <div class="itemTravel__leftcolumn--card--tour">
                     ${data.chuongTrinh.map((value, index) => {
-                        return `
+        return `
                                 <div class="itemTravel__leftcolumn--card--tour--item">
                                     <img src="${value.imgNgay}" />
                                     <span class="itemTravel__leftcolumn--card--tour--item__date">
@@ -133,19 +133,19 @@ function handleItemTravel(idx) {
                                     </p>
                                 </div>
                             `;
-                    })}
+    })}
                 </div>
                 <h2>CHÍNH SÁCH TOUR</h2>
                 <div class="itemTravel__leftcolumn--card--tour">
                     ${data.tieuChuan.map((tieuchuan, idxTC) => {
-                        return `
+        return `
                         <span
                             class="itemTravel__leftcolumn--card--tour--item__title"
                         >
                             - ${tieuchuan} <br>
                         </span>
                         `;
-                    })}
+    })}
                 </div>
                 <h2>ĐIỀU KHOẢN & QUY ĐỊNH</h2>
                 <div class="itemTravel__leftcolumn--card--tour">
@@ -247,8 +247,11 @@ function handleItemTravel(idx) {
             items: cartItems.items,
         };
         localStorage.setItem("cart-items", JSON.stringify(cartItems));
-        cartAmount.innerHTML = cartItems.amount;
         showAlert();
+        //Set số lượng hàng trong cart cho thằng status
+        cartAmount.forEach((e) => {
+            e.innerHTML = cartItems.amount || 0;
+        });
     });
 }
 

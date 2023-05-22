@@ -40,14 +40,13 @@ function renderCart() {
             e.onclick = () => {
                 let idx = Number(e.dataset.cart);
                 cartItems.items.splice(idx, 1);
-                console.log(cartItems.items);
                 let quantity = --cartItems.amount;
                 cartItems = {
                     amount: quantity,
                     items: cartItems.items,
                 };
                 localStorage.setItem("cart-items", JSON.stringify(cartItems));
-                cartAmount.innerHTML = cartItems.amount;
+                updateStatusCart();
                 e.closest(".cart-item").remove();
                 renderCart();
             };
